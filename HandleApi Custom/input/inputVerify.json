@@ -1,0 +1,1186 @@
+[
+  {
+    "case": "mcc: 5815 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5815 20251111202931 44877",
+          "registrationNumber": "REG20251111202931",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5815 - 51890",
+          "currency": "USD",
+          "classification": "MEDIA_AND_ENTERTAINMENT",
+          "mccCode": "5815",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ57591",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-72725"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "b4db19643fbdfb4b76b2db5e9b9986f49525747be2379794d8e7038aca937092",
+            "secret": "669e1b35611236728f4fe0c5831cce883ad3a40ca79f21f9d034c531c28622ff"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 4899 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 4899 20251111202931 27211",
+          "registrationNumber": "REG20251111202931",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 4899 - 70648",
+          "currency": "USD",
+          "classification": "MEDIA_AND_ENTERTAINMENT",
+          "mccCode": "4899",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ06796",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-53837"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "23d6167084271e755c5afb3fe5b30e7e7645630f03c55651be41d087f4b10db8",
+            "secret": "f0e7ac05a725ae60cb56c4e77bfd4e7e370ae5fa85a1e996422f121cc189f5fe"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7311 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 7311 20251111202931 87138",
+          "registrationNumber": "REG20251111202931",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7311 - 08651",
+          "currency": "USD",
+          "classification": "MEDIA_AND_ENTERTAINMENT",
+          "mccCode": "7311",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ91409",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-54655"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "5f4caaff4672833f874485bc2a02a2bc84e436e0d5d8a43efd1528f3ac3987b3",
+            "secret": "cb15662002d4aff47d121181314c8b326a17cbb22696fee80a77e7d4fe54e2de"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7333 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 7333 20251111202931 71795",
+          "registrationNumber": "REG20251111202931",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7333 - 07760",
+          "currency": "USD",
+          "classification": "MEDIA_AND_ENTERTAINMENT",
+          "mccCode": "7333",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ16817",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-84429"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "d6fd4158011c2801472cf4286f60f7c5fe48cacaccbd138799a5200249dd5f89",
+            "secret": "6c1294da6f96fe8ecffa26ae4c0b9d2270d71859fb875688d84e1f6f47474d98"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5816 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5816 20251111202931 38265",
+          "registrationNumber": "REG20251111202931",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5816 - 96797",
+          "currency": "USD",
+          "classification": "GAMING",
+          "mccCode": "5816",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ14950",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-93538"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "a7aef4d8c17ef4c1abd85a31a3295f0d83516a61ac80d893e52deff6ca6d8a76",
+            "secret": "5e603b73925997ac64626fa05d2d81342ce953ba18571e0bfc9da486b1cf46ec"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7955 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 7955 20251111202931 45886",
+          "registrationNumber": "REG20251111202931",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7955 - 28168",
+          "currency": "USD",
+          "classification": "GAMING",
+          "mccCode": "7955",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ43784",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-75432"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "3672eb81513299e5b73fcdc92f8309a3470aa996d6655090c898f345279e2d80",
+            "secret": "40e500fb2f93b1bdf134de5692839b191bb31c0c5d52ca09ab546c756ee08fca"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7994 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 7994 20251111202931 09956",
+          "registrationNumber": "REG20251111202931",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7994 - 64519",
+          "currency": "USD",
+          "classification": "GAMING",
+          "mccCode": "7994",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ49312",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-95850"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "e6dbba1314095b38548d5b795c6c8a6f0348627e3a8226ea4a66939a7fd8bbb8",
+            "secret": "fc86a3639b3f3ee2131eb9d04cff5f29b76751ae1fce0e8fb866220a8c439bbf"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 4816 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 4816 20251111202931 33356",
+          "registrationNumber": "REG20251111202931",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 4816 - 87461",
+          "currency": "USD",
+          "classification": "SOFTWARE_AND_SAAS",
+          "mccCode": "4816",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ87781",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-38539"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "d2922a08bc76039fad6ee6be0151f765ef089cc8721ed9f41070b3467765b16d",
+            "secret": "7b47a2d979803a2b14d9c6411d825c4f4ab9673fd743a92b5addf5a958529b2b"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7372 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 7372 20251111202932 76959",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7372 - 10697",
+          "currency": "USD",
+          "classification": "SOFTWARE_AND_SAAS",
+          "mccCode": "7372",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ48080",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-50677"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "7f35f4131b2b6c988084843872e6e898f21ac1604f15a37fa1ab711e68db9d2a",
+            "secret": "dc05fd881022b77102ed1d0995fca9165c168fc54be9e8356fa26cd335cbc64d"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7379 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 7379 20251111202932 93429",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7379 - 98877",
+          "currency": "USD",
+          "classification": "SOFTWARE_AND_SAAS",
+          "mccCode": "7379",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ33579",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-66425"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "b6f5b7640b9adae285c1a23502b20b1eaf395a145e2069181fd52026d42f8f65",
+            "secret": "032f5591ce607ff743215a95cf00bd946b91e755f81a05fb9dc70c5001e6b36b"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5311 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5311 20251111202932 75710",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5311 - 80253",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5311",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ90830",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-80365"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "b1e86ce73e180510a9e8a1eceeae24312f4881c2275836e931edcebabe7fdd89",
+            "secret": "a2fb3169260c19cbbcb6ee35b46f939e8d83c6b0973371d53d662499beb0e244"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5964 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5964 20251111202932 38069",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5964 - 34674",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5964",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ21748",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-75237"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "9dcefb08d8b7a8e323653a3bfabe92e1547f3d87d9c839dab36aaba8fdb0351f",
+            "secret": "b7546f39ca1e3a0510e711cdafdd3c5ee925a366b934bd4b3b9f219a4665d7d9"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5965 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5965 20251111202932 04196",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5965 - 26488",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5965",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ59933",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-47949"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "1b30fa180708bc2d3679362d7f67c7a3f952827cc41005fded2e2657c002d846",
+            "secret": "823cf983227d5fe11fff3d076f1ec6bc2ed944f9865f1aca62d7d0fa35c02452"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5966 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5966 20251111202932 51217",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5966 - 77830",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5966",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ12457",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-08861"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "dd4af11ba7e9935af488baba650562d135d96005bb42d180b6bf24d67fe75ff9",
+            "secret": "407bb3004bc0498b271198a8131fcf103ff34eb64d9ded2421bf35deebe34d3c"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5967 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5967 20251111202932 77774",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5967 - 92001",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5967",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ85565",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-65895"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "4f9993ddaaccc20779ac950072ec1169c51b3819b6eb326bd34a8077da52fbad",
+            "secret": "1f4dc021454a71e949337447121d59e09d973ec14875d26e67af1b2b08ea4d1b"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5968 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5968 20251111202932 90355",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5968 - 36568",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5968",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ53739",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-86962"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "2a935113f2c2e917edf926fb13d132a5489a15451cc1223597e99c6c467dc54e",
+            "secret": "30806749f2fba3e367a8d1021320790464858f84c9fb05d2cca35c94cc359f47"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5969 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5969 20251111202932 33729",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5969 - 02508",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5969",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ26377",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-95867"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "fcea67122d260a7fd463f699e084c2e737e45b115bbd8add46f66b3f963e93e0",
+            "secret": "12e22f12f76e13768a294b34df02589cfc8e02ffa9f922980a56541490bb1b3d"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5933 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5933 20251111202932 57668",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5933 - 39962",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5933",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ93520",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-86043"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "1e0b3c5014c2194f660deb4ce43e769e1dcddd5e6406dc2e78369d251a95c6c6",
+            "secret": "007aa293c3d2f31ee1045ef417ef7585584e9b4fa386fd8b9a69d97bede1c5bf"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5399 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5399 20251111202932 48980",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5399 - 26845",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5399",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ22474",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-36967"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "7cf752a5c7943a28bdc17f2f2aa049fc17b0cfd9bd81d40a05f06b11447e8154",
+            "secret": "f8d314b79e3528fc47020e8b3444cf325595adb8add0246299f64b21703bca6e"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5732 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5732 20251111202932 48638",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5732 - 54503",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5732",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ43236",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-67108"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "4ceb78bc04f4f4bbac72bcebf026bae57052fbfcc42d5aa94f487de9fa630ff2",
+            "secret": "08d3206ecbd4a9998a0b5d245fb5f1499fd47383f834800465482ca4ca044c77"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5734 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5734 20251111202932 93589",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5734 - 43351",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5734",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ56212",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-62405"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "d82f1b1a64a01c06d6960ea92b13c34dbc3b700ab4c6d5c12ce7604f63aeb966",
+            "secret": "8eb6467d695af846a309dbbadcfb8e70f6f117e8faad2d0f69fdffab58f92110"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5735 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5735 20251111202932 33412",
+          "registrationNumber": "REG20251111202932",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5735 - 41708",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5735",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ75348",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-92332"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "a43f81c7038387a9238cd92ac9f62004eb4f11a9338c8dc6bd80df21efd56fdc",
+            "secret": "6ad4e7052c698d121e2e11b5edd505ab2895edb9458a7dc2f2cfdbe5c109af0f"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5817 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5817 20251111202933 01092",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5817 - 13795",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5817",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ02251",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-28393"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "c533476f6ef8a50a412c14688c3812d6af9f982508f18833431295de21c9e96e",
+            "secret": "051374fc25ae5ea03cd8a94819f9feaad721aeb75017e2e7d912386e238cd7b0"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5818 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5818 20251111202933 69208",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5818 - 94457",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5818",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ28606",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-42768"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "9891a51055ad3e2646fdda6b104be27b15d39cdc0b774c18a6e69864255cd281",
+            "secret": "27f1dd2cc49422d3091ee42097be730b7944e1ea67b668996a72a5405d165af7"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7399 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 7399 20251111202933 86617",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7399 - 11432",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "7399",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ69783",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-46004"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "54fd6d7379c64541587075a2481b94e18fdb2288151eecbd55277fbbc48fac5f",
+            "secret": "91d7d56da37ac37531691ae5aec3e72d518dd5bc238efed2dae015a3e68d9e05"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5691 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5691 20251111202933 65006",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5691 - 55535",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5691",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ03921",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-11927"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "f1ac8c8f352902ae280292b468aec196494001fdf18f8994bd8d2e342cfeae02",
+            "secret": "ce91a44ae42fa71c105915319ca2b5a434a2e324312953a20b48b2b73401be92"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5641 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5641 20251111202933 71158",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5641 - 24400",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5641",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ15048",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-69438"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "ef9daa77f2f69cba5563159ac48a71a2825cc0e4260f9f4bd3cf00c00b88d5c0",
+            "secret": "b674ff3ce29c3f05cd0d4856325db9bcfa97d411fccd9ac89a1caa254728525f"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5999 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5999 20251111202933 31767",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5999 - 35228",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5999",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ00263",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-43202"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "078eaa07a33aa7b36ea30de3189c29ccd71faf983173dc5e62294eb0438042a3",
+            "secret": "b4f835a87d5ec9c34f04a60ad85e57ea6ef8d66ff1706a0283da296c6b343104"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 4722 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 4722 20251111202933 12184",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 4722 - 15343",
+          "currency": "USD",
+          "classification": "TRAVEL_AND_HOSPITALITY",
+          "mccCode": "4722",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ15006",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-86680"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "8d094fdc669c7584f705d3c387b0809425b16fe60b01d3a52d8f2af83e49b8eb",
+            "secret": "cad1e429892a2da0af4f2d3241109ce22dcda2a3047e53d632187d84d9cfa1c9"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 4789 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 4789 20251111202933 22488",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 4789 - 08124",
+          "currency": "USD",
+          "classification": "TRAVEL_AND_HOSPITALITY",
+          "mccCode": "4789",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ03190",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-80131"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "b64fd5f979ddc6b2f8ff9e33cf3b7d76a86912e37af2b86c98b7625aa6f73c17",
+            "secret": "d2b9a56d8115e4a07018aa54c56167bf0378e16b7452cdcb142148b28c9a4804"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 4411 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 4411 20251111202933 72573",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 4411 - 24178",
+          "currency": "USD",
+          "classification": "TRAVEL_AND_HOSPITALITY",
+          "mccCode": "4411",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ54630",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-42867"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "4bb07deb2fd51ddb6feb7e56f369f31abeec784e05e7d85abf84039157ecf864",
+            "secret": "d5902d89533c7c26c883143b7daae228208df0b5cd3d4dc687e3f71808988231"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 4121 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 4121 20251111202933 96058",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 4121 - 42380",
+          "currency": "USD",
+          "classification": "TRAVEL_AND_HOSPITALITY",
+          "mccCode": "4121",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ78669",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-59310"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "aafd93a4e30a559a7ecab874717f7c63bb7bbee1dacca0d03d3fc33162c79680",
+            "secret": "49f9214d4486480a555bc93fced94ed66c1cdb6066900e7da600c9821257da76"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 8299 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 8299 20251111202933 39767",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 8299 - 66454",
+          "currency": "USD",
+          "classification": "EDUCATION",
+          "mccCode": "8299",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ16125",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-08845"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "4c3b2ba3045d180c417ec5ca1def782637dc5f00ab3e02291d535dd5b373cb6a",
+            "secret": "62d4482cce8ead6205a4e4da09d310f9e00ff6e613f2d4b8bbb69f23cb623b09"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5192 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 5192 20251111202933 30606",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5192 - 09553",
+          "currency": "USD",
+          "classification": "EDUCATION",
+          "mccCode": "5192",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ84488",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-22314"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "98d881a93ccc6b53381be158abc11a80d6f15384f38efad8721781ebf1e6c2c7",
+            "secret": "ae311e6eb324c1df8458874458f8ce314eaefcffd58a2efafba10b67f2d2601b"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 6051 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 6051 20251111202933 08843",
+          "registrationNumber": "REG20251111202933",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 6051 - 89404",
+          "currency": "USD",
+          "classification": "CRYPTO",
+          "mccCode": "6051",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ46598",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-78287"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "e332213ac4c415516cc0817736c881a63be5d8a624308f20b8db5faffaf9cb01",
+            "secret": "3d4f5f48b7bc3cde8d657ec53d3517de722778aeb0aa3dff26b61e48d904c4e1"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 6211 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 6211 20251111202934 98524",
+          "registrationNumber": "REG20251111202934",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 6211 - 54455",
+          "currency": "USD",
+          "classification": "CRYPTO",
+          "mccCode": "6211",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ34119",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-56112"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "b6220c3d26f078108648556717a5fb261d57ace2c754cffdd0bb46d6b248e980",
+            "secret": "67ea1cedaabfb0550565cd963a2c67d28945f0a80f8747dbe541296a9dc1cc14"
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 6540 ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "Retest 6540 20251111202934 18355",
+          "registrationNumber": "REG20251111202934",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 6540 - 00477",
+          "currency": "USD",
+          "classification": "CRYPTO",
+          "mccCode": "6540",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ36912",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-40418"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "a2d8ad821f3ab483ba437c7d98410befd28ace4223cb68f37f2a78b2768108b8",
+            "secret": "0fb2b42ed04e5a874ae4c95235f03cd6d84c40b294dd47426a48e9b57009eb54"
+          }
+        }
+      }
+    }
+  }
+]

@@ -9,9 +9,12 @@
 
 
 async function doDeclined(data){
-    try {
+    let path = "/v1/transaction/declineTransaction"
 
+    try {
+        
     } catch (error) {
         
     }
 }
+

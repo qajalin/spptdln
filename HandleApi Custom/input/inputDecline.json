@@ -1,0 +1,322 @@
+[
+  {
+    "case": "mcc: 5815 - pmt: DEBIT_CARD ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5815 - ID USD - US - MEDIA_AND_ENTERTAINMENT - 0799580",
+          "registrationNumber": "REGMEDIA_AND_ENTERTAINMENT",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5815 - 66244",
+          "currency": "USD",
+          "classification": "MEDIA_AND_ENTERTAINMENT",
+          "mccCode": "5815",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ82918",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-11362"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "45dc1cd86554103c8a488cd621c3b432576ac3fab0a4ab39db1a855db8d472b8",
+            "secret": "69fea1f41dae09c955ccda4abac0414e16895d378ed699139bd32b973005dc5f"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251110095919_13281",
+          "totalAmount": 10000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "DEBIT_CARD": 10000
+          },
+          "transactionFee": 0,
+          "mccCode": "5815",
+          "issuingBank": "HDFC",
+          "issuerCountryCode": "ID",
+          "cardType": "VISA",
+          "entryMode": "CHIP",
+          "posConditionCode": "00",
+          "authCode": "AUTH20251110095919_1",
+          "retrievalRefNumber": "RET20251110095919_1",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-11-10T09:59:19.429+07:00"
+        },
+        "header": null
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "6911550734f029a490ae4833",
+            "totalAmount": 170000000,
+            "status": "COLLECTED",
+            "vatAmount": 16846830,
+            "merchantAmount": 153153170,
+            "transactionFee": 0,
+            "transactionVAT": 0,
+            "foreignAmount": 10000,
+            "foreignVatAmount": 990.99,
+            "exchangeRateUsed": 17000,
+            "exchangeRateSource": "SYSTEM",
+            "auditFlagged": true,
+            "auditReason": "Suspicious round amount pattern detected",
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 4899 - pmt: DEBIT_CARD ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 4899 - ID USD - US - MEDIA_AND_ENTERTAINMENT - 1126831",
+          "registrationNumber": "REGMEDIA_AND_ENTERTAINMENT",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 4899 - 99049",
+          "currency": "USD",
+          "classification": "MEDIA_AND_ENTERTAINMENT",
+          "mccCode": "4899",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ63196",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-25518"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "a12f08baf3a441472eb0ce97ef169cf9d696d6ce66a71445ac53cec8be722627",
+            "secret": "587ce510449314191f6d500b45cf2d35aa822cfce0e8be6f1ca59a8fa5d310ff"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251110095919_86127",
+          "totalAmount": 10000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "DEBIT_CARD": 10000
+          },
+          "transactionFee": 0,
+          "mccCode": "4899",
+          "issuingBank": "HDFC",
+          "issuerCountryCode": "ID",
+          "cardType": "VISA",
+          "entryMode": "CHIP",
+          "posConditionCode": "00",
+          "authCode": "AUTH20251110095919_1",
+          "retrievalRefNumber": "RET20251110095919_1",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-11-10T09:59:19.565+07:00"
+        },
+        "header": null
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "6911550734f029a490ae4855",
+            "totalAmount": 170000000,
+            "status": "COLLECTED",
+            "vatAmount": 16846830,
+            "merchantAmount": 153153170,
+            "transactionFee": 0,
+            "transactionVAT": 0,
+            "foreignAmount": 10000,
+            "foreignVatAmount": 990.99,
+            "exchangeRateUsed": 17000,
+            "exchangeRateSource": "SYSTEM",
+            "auditFlagged": true,
+            "auditReason": "Suspicious round amount pattern detected",
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7311 - pmt: DEBIT_CARD ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 7311 - ID USD - US - MEDIA_AND_ENTERTAINMENT - 8654468",
+          "registrationNumber": "REGMEDIA_AND_ENTERTAINMENT",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7311 - 43918",
+          "currency": "USD",
+          "classification": "MEDIA_AND_ENTERTAINMENT",
+          "mccCode": "7311",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ39381",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-65105"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "e1bb7c49fac905d0520a001343fa4ce9b50013ff34e5611644158d77f1f3b5c9",
+            "secret": "cb9813c0f6d0c097f47937cc806f0bbdf022df7cf69ef0c9972f7f91929346e8"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251110095919_56321",
+          "totalAmount": 10000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "DEBIT_CARD": 10000
+          },
+          "transactionFee": 0,
+          "mccCode": "7311",
+          "issuingBank": "HDFC",
+          "issuerCountryCode": "ID",
+          "cardType": "VISA",
+          "entryMode": "CHIP",
+          "posConditionCode": "00",
+          "authCode": "AUTH20251110095919_1",
+          "retrievalRefNumber": "RET20251110095919_1",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-11-10T09:59:19.694+07:00"
+        },
+        "header": null
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "6911550734f029a490ae4877",
+            "totalAmount": 170000000,
+            "status": "COLLECTED",
+            "vatAmount": 16846830,
+            "merchantAmount": 153153170,
+            "transactionFee": 0,
+            "transactionVAT": 0,
+            "foreignAmount": 10000,
+            "foreignVatAmount": 990.99,
+            "exchangeRateUsed": 17000,
+            "exchangeRateSource": "SYSTEM",
+            "auditFlagged": true,
+            "auditReason": "Suspicious round amount pattern detected",
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7333 - pmt: DEBIT_CARD ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 7333 - ID USD - US - MEDIA_AND_ENTERTAINMENT - 5632116",
+          "registrationNumber": "REGMEDIA_AND_ENTERTAINMENT",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7333 - 30596",
+          "currency": "USD",
+          "classification": "MEDIA_AND_ENTERTAINMENT",
+          "mccCode": "7333",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ69998",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-48425"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "dd8f70238a3de015c18fad2e3c1137daaf67552bfafbedfe2fa85c4ec2a20e27",
+            "secret": "6f9087ef025b1ada3cc87501bf7c46c6aa9d08a64c147898221c1d0fcd987f8e"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251110095920_46524",
+          "totalAmount": 10000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "DEBIT_CARD": 10000
+          },
+          "transactionFee": 0,
+          "mccCode": "7333",
+          "issuingBank": "HDFC",
+          "issuerCountryCode": "ID",
+          "cardType": "VISA",
+          "entryMode": "CHIP",
+          "posConditionCode": "00",
+          "authCode": "AUTH20251110095920_1",
+          "retrievalRefNumber": "RET20251110095920_1",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-11-10T09:59:19.838+07:00"
+        },
+        "header": null
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "6911550834f029a490ae4899",
+            "totalAmount": 170000000,
+            "status": "COLLECTED",
+            "vatAmount": 16846830,
+            "merchantAmount": 153153170,
+            "transactionFee": 0,
+            "transactionVAT": 0,
+            "foreignAmount": 10000,
+            "foreignVatAmount": 990.99,
+            "exchangeRateUsed": 17000,
+            "exchangeRateSource": "SYSTEM",
+            "auditFlagged": true,
+            "auditReason": "Suspicious round amount pattern detected",
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  }
+]
