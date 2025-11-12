@@ -39,9 +39,9 @@ function configHeaderVerify(payloadVerify,path){
 function dataVerify( countryCode, currency, pmt, txnTimestamp, destinationType) {
     let issuer = getRandomElement(bankList);
     let destinationParticipantID = getRandomElement(bankList);
-
+    let ref = generateRandomString(12)
     return {
-    ref: `BANK_${txnTimestamp}_${generateRandomString(5)}`,
+    ref: `BANK_${txnTimestamp}_${ref}`,
     totalAmount:10000,
     currency,
     countryCode,
@@ -55,7 +55,7 @@ function dataVerify( countryCode, currency, pmt, txnTimestamp, destinationType) 
     entryMode: "CHIP",
     posConditionCode: "00",
     authCode: `AUTH${txnTimestamp}_1`,
-    retrievalRefNumber: `RET${txnTimestamp}_1`,
+    retrievalRefNumber: ref,
     destinationType,
     networkHashedDestination: `NETv1:${generateHmac256(netHashKey, generateRandomString(100))}`,
     originParticipantID: issuer,

@@ -22,13 +22,14 @@
 <body>
     <div class="wrapper">
         <div>
-              <h1>Non PMSE Merchant</h1>
+              <h1>Decline and chargeback</h1>
             <label for="">open console untuk cek log</label>
         </div>
           
         <div style="display: flex;">
-            <div><button id="start">Start Register</button></div>&nbsp;&nbsp;&nbsp;
-            <div><button id="startVerify">Start Verify</button></div>
+            <div><button id="startDecline">Start Decline</button></div>&nbsp;&nbsp;&nbsp;
+            <div><button id="startChargeback">Start Chargeback</button></div>&nbsp;&nbsp;&nbsp;
+
         </div>
     </div>
     <script src="variable.js"></script>
@@ -36,9 +37,10 @@
     <script src="src/generateToken.js"></script>
         <script src="src/verifyTrx.js"></script>
 
-    <script src="src/chargeBackTest.js"></script>
+    <script src="src/readFile.js"></script>
 
     <script src="src/decline.js"></script>
+    <script src="src/chargeback.js"></script>
 
     <script src="src/generalProcess.js"></script>
 

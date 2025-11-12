@@ -44,9 +44,8 @@ function configHeaderVerify(payloadVerify,path,merchantKey){
 
 function dataVerify(mccCode, countryCode, currency, pmt, txnTimestamp) {
     let issuer = getRandomElement(bankList);
-    let rrn = generateRandomString(12);
     return {
-        ref: `BANK_${txnTimestamp}_${rrn}`,
+        ref: `BANK_${txnTimestamp}_${generateRandomString(5)}`,
         totalAmount:10000,
         currency,
         countryCode,
@@ -61,7 +60,7 @@ function dataVerify(mccCode, countryCode, currency, pmt, txnTimestamp) {
         entryMode: "CHIP",
         posConditionCode: "00",
         authCode: `AUTH${txnTimestamp}_1`,
-        retrievalRefNumber: rrn,
+        retrievalRefNumber: `RET${txnTimestamp}_1`,
         destinationType: 'PAYMENT', //enum
     
         transactionTime: moment().add(-0.2,"seconds").format('YYYY-MM-DDTHH:mm:ss.SSSZ')
@@ -82,9 +81,7 @@ async function verifyTransaction() {
                 arrVerify.push({
                     register:iv.register,
                     verify:{
-                        request:{
-                            body:resVerify.payloadVerify,
-                        },
+                        request:resVerify.payloadVerify,
                         response:{
                             httpCode:resVerify.responseVerify?resVerify.responseVerify.status:null,
                             body:resVerify.responseVerify?resVerify.responseVerify.data:null
