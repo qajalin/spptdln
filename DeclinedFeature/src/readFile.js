@@ -3,7 +3,7 @@ async function readFile(process) {
     console.log("Read Fileq Process Started");
 
     const dataInput = await axios.get(inputDir + inputDeclined)
-
+    let arr = []
     //If process is decline
     for(const item of dataInput.data){
         
@@ -13,8 +13,29 @@ async function readFile(process) {
         if(process==='decline') returnedData = await decline(item);
         else if(process==='chargeback') returnedData = await chargeback(item);
 
+        arr.push({
+            register:returnedData.data.register,
+            verify:returnedData.data.verify,
+            [process==='decline'?'decline':'chargeback']:{
+                request:{
+                    body:returnedData.payloadRequest,
+                    header:returnedData.error?returnedData.error.config.headers:null
+                }
+                ,
+                response:returnedData.error?returnedData.error.response.data:returnedData.response
+            }
+            // register:{
+            //    register:returnedData.data.register,
+            //    register:returnedData.data.verify,
+            //    [process==='decline'?decline:chargeback]:returnedData.response?returnedData.response:returnedData.error 
+            // }
+        })
+
+
         console.log('log:',returnedData)
     }
+    console.log("arr",arr)
+    downloadFile(arr,`Hasil_${process==='decline'?'decline':'chargeback'} - ${moment().format('YYYYMMDDHHmmss')}.json`)
 }
 
 

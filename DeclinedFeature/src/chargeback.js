@@ -13,10 +13,10 @@
       
     try {
         response = await axios.post(`${baseURL}${path}`, payloadRequest, { headers: headerRequest(data,payloadRequest,path) })
-        return {response,payloadRequest}
+        return {response,payloadRequest,data}
 
     } catch (error) {
-        return {response,payloadRequest,error}
+        return {response,payloadRequest,error,data}
     }
 }
 

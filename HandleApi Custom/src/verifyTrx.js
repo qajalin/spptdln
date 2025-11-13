@@ -64,7 +64,7 @@ function dataVerify(mccCode, countryCode, currency, pmt, txnTimestamp) {
         retrievalRefNumber: rrn,
         destinationType: 'PAYMENT', //enum
     
-        transactionTime: moment().add(-0.2,"seconds").format('YYYY-MM-DDTHH:mm:ss.SSSZ')
+        transactionTime: moment().add(-1,"seconds").format('YYYY-MM-DDTHH:mm:ss.SSSZ')
     }
 }
 
