@@ -17,7 +17,7 @@ const pspPublicKey = ``
 
 //Directory Input
 const inputDir = "input/"
-const inputDeclined = "inputDecline.json"
+const inputDeclined = "inputDeclineTransfer.json"
 const inputChargeback = ""
 
 //Case Variable
@@ -26,12 +26,12 @@ const paymentMethod = [
 ]
 
 const currencyList = [
-    "USD",
+    "IDR",
     //"USD","EUR","SGD","IDR","CNY","HKD",
 ]
 
 const destinationType = [
-    "OVERBOOKING", "BANK_TRANSFER", "PAYMENT", "PURCHASE", "TOPUP", "REMITTANCE", "WIRE_TRANSFER"
+    "OVERBOOKING", "BANK_TRANSFER",  "TOPUP", "REMITTANCE", "WIRE_TRANSFER" //, "PAYMENT", "PURCHASE",
 ]
 
 

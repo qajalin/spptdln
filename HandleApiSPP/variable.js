@@ -22,7 +22,7 @@ const inputChargeback = ""
 
 //Case Variable
 const paymentMethod = [
-    "DEBIT_CARD",//"CREDIT_CARD", "WALLET","CURRENT_ACCOUNT","SAVINGS_ACCOUNT"
+    "WALLET", //"DEBIT_CARD","CREDIT_CARD", ,"CURRENT_ACCOUNT","SAVINGS_ACCOUNT"
 ]
 
 const currencyList = [
@@ -98,7 +98,7 @@ const tcArray = [
 
 //Generate Random String
  function generateRandomString(length) {
-    const characters = '0123456789';
+    const characters = '123456789';
     let result = '';
     
     for (let i = 0; i < length; i++) {

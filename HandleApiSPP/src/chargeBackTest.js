@@ -32,7 +32,7 @@ async function chargeBackTest() {
                             verify:{
                                 request:{
                                     body:resVerify.payloadVerify,
-                                    header:resVerify.error?resVerify.error.config.headers:null
+                                    header:resVerify.error?resVerify.error.config.headers:resVerify.responseVerify.config.headers
 
                                 },
                                 response:{

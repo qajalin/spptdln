@@ -36,7 +36,7 @@ function configHeaderRegister(payloadRegister,path){
      return {
         registeredName,
         registrationNumber: `REG${clientTimestamp}`,
-        countryCode,
+        countryCode:"ID",
         merchantName:`Perusahaan DI ${mcc} - ${generateRandomString(5)}`,
         currency,
         classification,

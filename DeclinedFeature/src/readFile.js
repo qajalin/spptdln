@@ -12,7 +12,7 @@ async function readFile(process) {
         let returnedData;
         if(process==='decline') returnedData = await decline(item);
         else if(process==='chargeback') returnedData = await chargeback(item);
-
+        console.log("returnData:",returnedData)
         arr.push({
             register:returnedData.data.register,
             verify:returnedData.data.verify,
@@ -23,6 +23,7 @@ async function readFile(process) {
                 }
                 ,
                 response:returnedData.error?returnedData.error.response.data:returnedData.response
+                
             }
             // register:{
             //    register:returnedData.data.register,

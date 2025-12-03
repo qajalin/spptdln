@@ -52,15 +52,15 @@ function dataVerify( countryCode, currency, pmt, txnTimestamp, destinationType) 
     issuingBank: issuer,
     issuerCountryCode: "ID",
     cardType: getRandomElement(principleList),
-    entryMode: "CHIP",
-    posConditionCode: "00",
-    authCode: `AUTH${txnTimestamp}_1`,
+    //entryMode: "CHIP",
+    //posConditionCode: "00",
+    //authCode: `AUTH${txnTimestamp}_1`,
     retrievalRefNumber: ref,
     destinationType,
     networkHashedDestination: `NETv1:${generateHmac256(netHashKey, generateRandomString(100))}`,
     originParticipantID: issuer,
     destinationParticipantID,
-    transactionTime: moment().add(-0.2,"seconds").format('YYYY-MM-DDTHH:mm:ss.SSSZ')
+    transactionTime: moment().add(-1,"seconds").format('YYYY-MM-DDTHH:mm:ss.SSSZ')
     }
 }
 

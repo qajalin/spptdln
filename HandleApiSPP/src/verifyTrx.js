@@ -42,26 +42,26 @@ function configHeaderVerify(payloadVerify,path,merchantKey){
 }
 
 function dataVerify(mccCode, countryCode, currency, mccCode, pmt, txnTimestamp) {
-    let issuer = getRandomElement(bankList);
+    const issuer = getRandomElement(bankList);
+    let retrievalRefNumber = generateRandomString(6)
     return {
-        ref: `BANK_${txnTimestamp}_${generateRandomString(5)}`,
+        ref: `BANK_${txnTimestamp}_${generateRandomString(5)}_${retrievalRefNumber}`,
         totalAmount:10000,
         currency,
         countryCode,
         paymentMethods: {
             [pmt]: 10000
         },
-        transactionFee: 0,
+        //transactionFee: 0,
         mccCode,
         issuingBank: issuer,
         issuerCountryCode: "ID",
         cardType: getRandomElement(principleList),
-        entryMode: "CHIP",
-        posConditionCode: "00",
-        authCode: `AUTH${txnTimestamp}_1`,
-        retrievalRefNumber: `RET${txnTimestamp}_1`,
+        //entryMode: "CHIP",
+        //posConditionCode: "00",
+        //authCode: `AUTH${txnTimestamp}_1`,
+        retrievalRefNumber,
         destinationType: 'PAYMENT', //enum
-    
         transactionTime: moment().add(-0.2,"seconds").format('YYYY-MM-DDTHH:mm:ss.SSSZ')
     }
 }

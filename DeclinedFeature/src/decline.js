@@ -7,7 +7,7 @@
 
     console.log("bodyRequest:", bodyRequest(data));
     let payloadRequest = bodyRequest(data);
-    let path = "/v1/transaction/declineTransaction"
+    let path = "/v1/transaction/decline"
     let response = null
 
     
@@ -26,16 +26,19 @@
 const bodyRequest = data =>{
     const {totalAmount, vatAmount,} = data.verify.response.body.content
     const {retrievalRefNumber, currency,transactionTime,ref} = data.verify.request.body
+    const {"X-TIMESTAMP":xtimeStamp} = data.verify.request.header
+    const timestamp  = moment().format('YYYYMMDDHHmmss')
     return {
-        ref,
-        reason:"CANCELLATION",
-        originalAmount:totalAmount,
-        originalVatAmount:vatAmount,
-        originalRetrievalRefNumber:retrievalRefNumber,
-        originalTimestamp:transactionTime,
-        currency,
+        transactionRef:ref,
+        ref: `DEC_${ref.slice(0,4)}_${timestamp}_${retrievalRefNumber}`,
+        currency:"IDR",
         refundAmount:totalAmount,
         refundVatAmount:vatAmount,
+        reason:"CANCELLATION",
+        verifiedTransactionAmount:totalAmount,
+        verifiedRetrievalRefNumber:retrievalRefNumber,
+        verifiedTransactionTimestamp:xtimeStamp
+
     }
 }
 

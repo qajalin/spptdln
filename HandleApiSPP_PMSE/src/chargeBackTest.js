@@ -28,6 +28,7 @@ async function chargeBackTest() {
 
                     if(res.response && res.response.status === 200){
                         const resVerify = await verifyTrx(res, pmt);
+                        console.log(resVerify)
                         arr.push({ 
                            case:`mcc: ${es.mccCode} - pmt: ${pmt} `,
                             register:{
@@ -43,7 +44,7 @@ async function chargeBackTest() {
                             verify:{
                                 request:{
                                     body:resVerify.payloadVerify,
-                                    header:resVerify.error?resVerify.error.config.headers:null
+                                    header:resVerify.error?resVerify.error.config.headers:resVerify.responseVerify.config.headers,
 
                                 },
                                 response:{

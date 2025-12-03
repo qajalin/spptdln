@@ -47,52 +47,52 @@ const tcArray = [
         currency:"USD",
         mccCode:[5815,4899,7311,7333 ] //
     },
-    {
-        classification:"GAMING",
-        merchantCountryCode : "US",
-        countryCode: "ID",
-        currency:"USD",
-        mccCode:[5816,7955,7994]
-    },
-       {
-        classification:"SOFTWARE_AND_SAAS",
-        merchantCountryCode : "US",
-        countryCode: "ID",
-        currency:"USD",
-        mccCode:[4816,7372,7379]
+    // {
+    //     classification:"GAMING",
+    //     merchantCountryCode : "US",
+    //     countryCode: "ID",
+    //     currency:"USD",
+    //     mccCode:[5816,7955,7994]
+    // },
+    //    {
+    //     classification:"SOFTWARE_AND_SAAS",
+    //     merchantCountryCode : "US",
+    //     countryCode: "ID",
+    //     currency:"USD",
+    //     mccCode:[4816,7372,7379]
 
-    },
-    {//E_COMMERCE non pmse
-        classification:"E_COMMERCE",
-        merchantCountryCode : "US",
-        countryCode: "ID",
-        currency:"USD",
-        mccCode:[5311,5964,5965,5966,5967,5968,5969,5933,5399,5732,5734,5735,5817,5818,7399,5691,5641,5999]
-    }
-    ,
-    {//E_COMMERCE non pmse
-        classification:"TRAVEL_AND_HOSPITALITY",
-        merchantCountryCode : "US",
-        countryCode: "ID",
-        currency:"USD",
-        mccCode:[4722,4789,4411,4121]
-    }
-    ,
-    {//E_COMMERCE non pmse
-        classification:"EDUCATION",
-        merchantCountryCode : "US",
-        countryCode: "ID",
-        currency:"USD",
-        mccCode:[8299,5192]
-    }
-    ,
-    {//E_COMMERCE non pmse
-        classification:"CRYPTO",
-        merchantCountryCode : "US",
-        countryCode: "ID",
-        currency:"USD",
-        mccCode:[6051,6211,6540]
-    }
+    // },
+    // {//E_COMMERCE non pmse
+    //     classification:"E_COMMERCE",
+    //     merchantCountryCode : "US",
+    //     countryCode: "ID",
+    //     currency:"USD",
+    //     mccCode:[5311,5964,5965,5966,5967,5968,5969,5933,5399,5732,5734,5735,5817,5818,7399,5691,5641,5999]
+    // }
+    // ,
+    // {//E_COMMERCE non pmse
+    //     classification:"TRAVEL_AND_HOSPITALITY",
+    //     merchantCountryCode : "US",
+    //     countryCode: "ID",
+    //     currency:"USD",
+    //     mccCode:[4722,4789,4411,4121]
+    // }
+    // ,
+    // {//E_COMMERCE non pmse
+    //     classification:"EDUCATION",
+    //     merchantCountryCode : "US",
+    //     countryCode: "ID",
+    //     currency:"USD",
+    //     mccCode:[8299,5192]
+    // }
+    // ,
+    // {//E_COMMERCE non pmse
+    //     classification:"CRYPTO",
+    //     merchantCountryCode : "US",
+    //     countryCode: "ID",
+    //     currency:"USD",
+    //     mccCode:[6051,6211,6540]
+    // }
    
 ]
 

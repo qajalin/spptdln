@@ -18,22 +18,22 @@ const pmseList = [
     "merchantId": "AWS_US_001",
     "merchantGroup": "Amazon Global"
   },
- {
-   "registeredName": "GOOGLE ASIA PACIFIC PTE. LTD.",
-   "countryCode": "SG",
-   "currency": "SGD",
-   "email": "contact@google.com.sg",
-   "phoneNumber": "+6565218000",
-   "classification": "Cloud_IT_Infra",
-   "mccCode": "7311",
-   "organizationTin": "TIN-200812345G",
-   "merchantName": "Google APAC",
-   "merchantCity": "Singapore",
-   "merchantCountryCode": "SG",
-   "acquirerInstitutionId": "ACQ_GOOGLE_SG",
-   "merchantId": "GOOGLE_SG_002",
-   "merchantGroup": "Google Global"
- },
+//  {
+//    "registeredName": "GOOGLE ASIA PACIFIC PTE. LTD.",
+//    "countryCode": "SG",
+//    "currency": "SGD",
+//    "email": "contact@google.com.sg",
+//    "phoneNumber": "+6565218000",
+//    "classification": "Cloud_IT_Infra",
+//    "mccCode": "7311",
+//    "organizationTin": "TIN-200812345G",
+//    "merchantName": "Google APAC",
+//    "merchantCity": "Singapore",
+//    "merchantCountryCode": "SG",
+//    "acquirerInstitutionId": "ACQ_GOOGLE_SG",
+//    "merchantId": "GOOGLE_SG_002",
+//    "merchantGroup": "Google Global"
+//  },
 //  {
 //    "registeredName": "GOOGLE IRELAND LIMITED",
 //    "countryCode": "IE",

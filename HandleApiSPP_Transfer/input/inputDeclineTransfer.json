@@ -1,0 +1,252 @@
+[
+  {
+    "case": "destinationType: OVERBOOKING - pmt: DEBIT_CARD ",
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251117104422_739106222215",
+          "totalAmount": 10000,
+          "currency": "IDR",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "DEBIT_CARD": 10000
+          },
+          "transactionFee": 0,
+          "issuingBank": "BCA",
+          "issuerCountryCode": "ID",
+          "cardType": "JCB",
+          "retrievalRefNumber": "739106222215",
+          "destinationType": "OVERBOOKING",
+          "networkHashedDestination": "NETv1:7f73049e54e28a1742d37fc162c2072c00ed6567c18f0db51ee0d0c8b4874b90",
+          "originParticipantID": "BCA",
+          "destinationParticipantID": "DANAMON",
+          "transactionTime": "2025-11-17T10:44:21.479+07:00"
+        },
+        "header": null
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "691a9a158d3380a371b48e7d",
+            "totalAmount": 10000,
+            "status": "NOT_COLLECTED",
+            "vatAmount": 991,
+            "merchantAmount": 9009,
+            "transactionFee": 0,
+            "transactionVAT": 0,
+            "foreignAmount": null,
+            "foreignVatAmount": null,
+            "exchangeRateUsed": null,
+            "exchangeRateSource": null,
+            "auditFlagged": false,
+            "auditReason": "",
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "destinationType: BANK_TRANSFER - pmt: DEBIT_CARD ",
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251117104422_841671415651",
+          "totalAmount": 10000,
+          "currency": "IDR",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "DEBIT_CARD": 10000
+          },
+          "transactionFee": 0,
+          "issuingBank": "BRI",
+          "issuerCountryCode": "ID",
+          "cardType": "GPN",
+          "retrievalRefNumber": "841671415651",
+          "destinationType": "BANK_TRANSFER",
+          "networkHashedDestination": "NETv1:069296a05ac5db3c934a80a3913242e94e6b867f7a1d99d12d556a2b67b1e7bc",
+          "originParticipantID": "BRI",
+          "destinationParticipantID": "BCA",
+          "transactionTime": "2025-11-17T10:44:21.534+07:00"
+        },
+        "header": null
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "691a9a158d3380a371b48e84",
+            "totalAmount": 10000,
+            "status": "NOT_COLLECTED",
+            "vatAmount": 991,
+            "merchantAmount": 9009,
+            "transactionFee": 0,
+            "transactionVAT": 0,
+            "foreignAmount": null,
+            "foreignVatAmount": null,
+            "exchangeRateUsed": null,
+            "exchangeRateSource": null,
+            "auditFlagged": false,
+            "auditReason": "",
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "destinationType: TOPUP - pmt: DEBIT_CARD ",
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251117104422_521946807802",
+          "totalAmount": 10000,
+          "currency": "IDR",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "DEBIT_CARD": 10000
+          },
+          "transactionFee": 0,
+          "issuingBank": "DANAMON",
+          "issuerCountryCode": "ID",
+          "cardType": "MASTERCARD",
+          "retrievalRefNumber": "521946807802",
+          "destinationType": "TOPUP",
+          "networkHashedDestination": "NETv1:83186d044c7d0591172db13c994cb57b71a7e9e5bfad16dde7cd0888347c4d0e",
+          "originParticipantID": "DANAMON",
+          "destinationParticipantID": "BRI",
+          "transactionTime": "2025-11-17T10:44:21.570+07:00"
+        },
+        "header": null
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "691a9a158d3380a371b48e8e",
+            "totalAmount": 10000,
+            "status": "NOT_COLLECTED",
+            "vatAmount": 991,
+            "merchantAmount": 9009,
+            "transactionFee": 0,
+            "transactionVAT": 0,
+            "foreignAmount": null,
+            "foreignVatAmount": null,
+            "exchangeRateUsed": null,
+            "exchangeRateSource": null,
+            "auditFlagged": false,
+            "auditReason": "",
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "destinationType: REMITTANCE - pmt: DEBIT_CARD ",
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251117104422_450072304395",
+          "totalAmount": 10000,
+          "currency": "IDR",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "DEBIT_CARD": 10000
+          },
+          "transactionFee": 0,
+          "issuingBank": "MDR",
+          "issuerCountryCode": "ID",
+          "cardType": "CUP",
+          "retrievalRefNumber": "450072304395",
+          "destinationType": "REMITTANCE",
+          "networkHashedDestination": "NETv1:a2b50430f0085572ca6a2293ebdb634586ce9c8cf0b4d03074342b63513d1d0f",
+          "originParticipantID": "MDR",
+          "destinationParticipantID": "BTN",
+          "transactionTime": "2025-11-17T10:44:21.600+07:00"
+        },
+        "header": null
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "691a9a158d3380a371b48e95",
+            "totalAmount": 10000,
+            "status": "NOT_COLLECTED",
+            "vatAmount": 991,
+            "merchantAmount": 9009,
+            "transactionFee": 0,
+            "transactionVAT": 0,
+            "foreignAmount": null,
+            "foreignVatAmount": null,
+            "exchangeRateUsed": null,
+            "exchangeRateSource": null,
+            "auditFlagged": false,
+            "auditReason": "",
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "destinationType: WIRE_TRANSFER - pmt: DEBIT_CARD ",
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251117104422_537958660297",
+          "totalAmount": 10000,
+          "currency": "IDR",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "DEBIT_CARD": 10000
+          },
+          "transactionFee": 0,
+          "issuingBank": "CIMB",
+          "issuerCountryCode": "ID",
+          "cardType": "MASTERCARD",
+          "retrievalRefNumber": "537958660297",
+          "destinationType": "WIRE_TRANSFER",
+          "networkHashedDestination": "NETv1:158a6e28abda13e8728f93db9f31b15b6ba4b72300663fd05316a16864986cd8",
+          "originParticipantID": "CIMB",
+          "destinationParticipantID": "DANAMON",
+          "transactionTime": "2025-11-17T10:44:21.633+07:00"
+        },
+        "header": null
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "691a9a158d3380a371b48e9f",
+            "totalAmount": 10000,
+            "status": "NOT_COLLECTED",
+            "vatAmount": 991,
+            "merchantAmount": 9009,
+            "transactionFee": 0,
+            "transactionVAT": 0,
+            "foreignAmount": null,
+            "foreignVatAmount": null,
+            "exchangeRateUsed": null,
+            "exchangeRateSource": null,
+            "auditFlagged": false,
+            "auditReason": "",
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  }
+]

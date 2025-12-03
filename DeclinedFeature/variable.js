@@ -52,7 +52,7 @@ function getRandomElement (arr) {
 
 //Config Header
 function headerRequest (data,payloadRequest,path) {
-    const timestamp = moment().format('YYYY-MM-DDTHH:mm:ss.SSSZ');
+    const timestamp = moment().add(-1,"seconds").format('YYYY-MM-DDTHH:mm:ss.SSSZ')
     const local_hashedBody = CryptoJS.SHA256(JSON.stringify(payloadRequest)).toString().toString().toLowerCase()
     const local_stringToSign = `POST:${path}:${adminToken}:${local_hashedBody}:${timestamp}`;
     const local_signature = CryptoJS.HmacSHA256(local_stringToSign, pspSecret). toString().toLowerCase();
