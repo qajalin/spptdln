@@ -1,6 +1,5 @@
 [
   {
-    "case": "mcc: 7372 - pmt: CREDIT_CARD ",
     "register": {
       "request": {
         "body": {
@@ -77,10 +76,40 @@
           }
         }
       }
+    },
+    "decline": {
+      "request": {
+        "body": {
+          "transactionRef": "BANK_20251203210405_38725_231847",
+          "ref": "DEC_BANK_20251203210500_231847",
+          "currency": "IDR",
+          "refundAmount": 566814,
+          "refundVatAmount": 56181,
+          "reason": "CANCELLATION",
+          "verifiedTransactionAmount": 566814,
+          "verifiedRetrievalRefNumber": "231847",
+          "verifiedTransactionTimestamp": "2025-12-03T21:04:04.949+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc3MDcwMCwiZXhwIjoxNzY0Nzc0MzAwfQ.Njlk-KUy0Ozl8znVZErKakMIfoxDADHGlJ3xwSEti0A",
+          "X-TIMESTAMP": "2025-12-03T21:04:59.679+07:00",
+          "X-SIGNATURE": "3839d4632129f84fc658070d0533aeb3c5a182a7aa5abc64b1c1c0e21d38d8c6",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "20a65ffe9c6d975c968972d2272b5a580a89b8f2d01ab0bcc9835690d370951d"
+        }
+      },
+      "response": {
+        "success": false,
+        "message": "Cannot process CANCELLATION for transaction with status \"NOT_COLLECTED\". Only COLLECTED transactions can be declined or charged back.",
+        "content": {
+          "hint": "Check the request parameters match the original transaction"
+        }
+      }
     }
   },
   {
-    "case": "mcc: 7372 - pmt: DEBIT_CARD ",
     "register": {
       "request": {
         "body": {
@@ -157,10 +186,40 @@
           }
         }
       }
+    },
+    "decline": {
+      "request": {
+        "body": {
+          "transactionRef": "BANK_20251203210406_38535_151478",
+          "ref": "DEC_BANK_20251203210500_151478",
+          "currency": "IDR",
+          "refundAmount": 300078,
+          "refundVatAmount": 29674,
+          "reason": "CANCELLATION",
+          "verifiedTransactionAmount": 300078,
+          "verifiedRetrievalRefNumber": "151478",
+          "verifiedTransactionTimestamp": "2025-12-03T21:04:05.209+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc3MDcwMCwiZXhwIjoxNzY0Nzc0MzAwfQ.Njlk-KUy0Ozl8znVZErKakMIfoxDADHGlJ3xwSEti0A",
+          "X-TIMESTAMP": "2025-12-03T21:04:59.759+07:00",
+          "X-SIGNATURE": "da10129c8bd091cf33edd655e6c769781f4413e210249f47dc336687ee76255e",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "20a65ffe9c6d975c968972d2272b5a580a89b8f2d01ab0bcc9835690d370951d"
+        }
+      },
+      "response": {
+        "success": false,
+        "message": "Cannot process CANCELLATION for transaction with status \"NOT_COLLECTED\". Only COLLECTED transactions can be declined or charged back.",
+        "content": {
+          "hint": "Check the request parameters match the original transaction"
+        }
+      }
     }
   },
   {
-    "case": "mcc: 7372 - pmt: WALLET ",
     "register": {
       "request": {
         "body": {
@@ -237,10 +296,40 @@
           }
         }
       }
+    },
+    "decline": {
+      "request": {
+        "body": {
+          "transactionRef": "BANK_20251203210406_46366_263933",
+          "ref": "DEC_BANK_20251203210500_263933",
+          "currency": "IDR",
+          "refundAmount": 600156,
+          "refundVatAmount": 59515,
+          "reason": "CANCELLATION",
+          "verifiedTransactionAmount": 600156,
+          "verifiedRetrievalRefNumber": "263933",
+          "verifiedTransactionTimestamp": "2025-12-03T21:04:05.302+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc3MDcwMCwiZXhwIjoxNzY0Nzc0MzAwfQ.Njlk-KUy0Ozl8znVZErKakMIfoxDADHGlJ3xwSEti0A",
+          "X-TIMESTAMP": "2025-12-03T21:04:59.800+07:00",
+          "X-SIGNATURE": "2b6e2ae76399c763c1b00bf7c8fc428bdedff8da9284852bd302a2bbebfc0a07",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "20a65ffe9c6d975c968972d2272b5a580a89b8f2d01ab0bcc9835690d370951d"
+        }
+      },
+      "response": {
+        "success": false,
+        "message": "Cannot process CANCELLATION for transaction with status \"NOT_COLLECTED\". Only COLLECTED transactions can be declined or charged back.",
+        "content": {
+          "hint": "Check the request parameters match the original transaction"
+        }
+      }
     }
   },
   {
-    "case": "mcc: 7311 - pmt: CREDIT_CARD ",
     "register": {
       "request": {
         "body": {
@@ -317,10 +406,40 @@
           }
         }
       }
+    },
+    "decline": {
+      "request": {
+        "body": {
+          "transactionRef": "BANK_20251203210406_82411_643435",
+          "ref": "DEC_BANK_20251203210500_643435",
+          "currency": "IDR",
+          "refundAmount": 966918,
+          "refundVatAmount": 95858,
+          "reason": "CANCELLATION",
+          "verifiedTransactionAmount": 966918,
+          "verifiedRetrievalRefNumber": "643435",
+          "verifiedTransactionTimestamp": "2025-12-03T21:04:05.394+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc3MDcwMCwiZXhwIjoxNzY0Nzc0MzAwfQ.Njlk-KUy0Ozl8znVZErKakMIfoxDADHGlJ3xwSEti0A",
+          "X-TIMESTAMP": "2025-12-03T21:04:59.862+07:00",
+          "X-SIGNATURE": "9bde04d44944b0b849d3e724e9fe39807500eb5699df9f15d99bdceaa60bb6c3",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "bc8f3ecf224f23a82d72d3ac370b1d038b5795c69dcb42a2ad158ac888dc6949"
+        }
+      },
+      "response": {
+        "success": false,
+        "message": "Cannot process CANCELLATION for transaction with status \"NOT_COLLECTED\". Only COLLECTED transactions can be declined or charged back.",
+        "content": {
+          "hint": "Check the request parameters match the original transaction"
+        }
+      }
     }
   },
   {
-    "case": "mcc: 7311 - pmt: DEBIT_CARD ",
     "register": {
       "request": {
         "body": {
@@ -397,10 +516,40 @@
           }
         }
       }
+    },
+    "decline": {
+      "request": {
+        "body": {
+          "transactionRef": "BANK_20251203210406_69255_981259",
+          "ref": "DEC_BANK_20251203210500_981259",
+          "currency": "IDR",
+          "refundAmount": 733524,
+          "refundVatAmount": 72686,
+          "reason": "CANCELLATION",
+          "verifiedTransactionAmount": 733524,
+          "verifiedRetrievalRefNumber": "981259",
+          "verifiedTransactionTimestamp": "2025-12-03T21:04:05.499+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc3MDcwMCwiZXhwIjoxNzY0Nzc0MzAwfQ.Njlk-KUy0Ozl8znVZErKakMIfoxDADHGlJ3xwSEti0A",
+          "X-TIMESTAMP": "2025-12-03T21:04:59.906+07:00",
+          "X-SIGNATURE": "f0c2b70899574d3b7daea7f3e3e84470c9a872b0581909f6d409fdbfea933ea2",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "bc8f3ecf224f23a82d72d3ac370b1d038b5795c69dcb42a2ad158ac888dc6949"
+        }
+      },
+      "response": {
+        "success": false,
+        "message": "Cannot process CANCELLATION for transaction with status \"NOT_COLLECTED\". Only COLLECTED transactions can be declined or charged back.",
+        "content": {
+          "hint": "Check the request parameters match the original transaction"
+        }
+      }
     }
   },
   {
-    "case": "mcc: 7311 - pmt: WALLET ",
     "register": {
       "request": {
         "body": {
@@ -477,10 +626,40 @@
           }
         }
       }
+    },
+    "decline": {
+      "request": {
+        "body": {
+          "transactionRef": "BANK_20251203210406_39863_817849",
+          "ref": "DEC_BANK_20251203210500_817849",
+          "currency": "IDR",
+          "refundAmount": 1483719,
+          "refundVatAmount": 147038,
+          "reason": "CANCELLATION",
+          "verifiedTransactionAmount": 1483719,
+          "verifiedRetrievalRefNumber": "817849",
+          "verifiedTransactionTimestamp": "2025-12-03T21:04:05.586+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc3MDcwMCwiZXhwIjoxNzY0Nzc0MzAwfQ.Njlk-KUy0Ozl8znVZErKakMIfoxDADHGlJ3xwSEti0A",
+          "X-TIMESTAMP": "2025-12-03T21:04:59.945+07:00",
+          "X-SIGNATURE": "ff9c5224ba21c39e6844b6931895e71e674ef7c8b53c412f38e5cf796f77ed27",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "bc8f3ecf224f23a82d72d3ac370b1d038b5795c69dcb42a2ad158ac888dc6949"
+        }
+      },
+      "response": {
+        "success": false,
+        "message": "Cannot process CANCELLATION for transaction with status \"NOT_COLLECTED\". Only COLLECTED transactions can be declined or charged back.",
+        "content": {
+          "hint": "Check the request parameters match the original transaction"
+        }
+      }
     }
   },
   {
-    "case": "mcc: 7311 - pmt: CREDIT_CARD ",
     "register": {
       "request": {
         "body": {
@@ -557,10 +736,40 @@
           }
         }
       }
+    },
+    "decline": {
+      "request": {
+        "body": {
+          "transactionRef": "BANK_20251203210406_13568_969937",
+          "ref": "DEC_BANK_20251203210500_969937",
+          "currency": "IDR",
+          "refundAmount": 266736,
+          "refundVatAmount": 26507,
+          "reason": "CANCELLATION",
+          "verifiedTransactionAmount": 266736,
+          "verifiedRetrievalRefNumber": "969937",
+          "verifiedTransactionTimestamp": "2025-12-03T21:04:05.676+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc3MDcwMCwiZXhwIjoxNzY0Nzc0MzAwfQ.Njlk-KUy0Ozl8znVZErKakMIfoxDADHGlJ3xwSEti0A",
+          "X-TIMESTAMP": "2025-12-03T21:04:59.986+07:00",
+          "X-SIGNATURE": "694e34103ab02a803b8c8a26384c5978473428dfde0e5c6cbbb4f7886844e09c",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "1ebbb9b459bd4d7b61d90f26c54b09ee9febe019de4f7711095f4bc0dbe995f0"
+        }
+      },
+      "response": {
+        "success": false,
+        "message": "Cannot process CANCELLATION for transaction with status \"NOT_COLLECTED\". Only COLLECTED transactions can be declined or charged back.",
+        "content": {
+          "hint": "Check the request parameters match the original transaction"
+        }
+      }
     }
   },
   {
-    "case": "mcc: 7311 - pmt: DEBIT_CARD ",
     "register": {
       "request": {
         "body": {
@@ -637,10 +846,40 @@
           }
         }
       }
+    },
+    "decline": {
+      "request": {
+        "body": {
+          "transactionRef": "BANK_20251203210406_38439_962254",
+          "ref": "DEC_BANK_20251203210501_962254",
+          "currency": "IDR",
+          "refundAmount": 416775,
+          "refundVatAmount": 41344,
+          "reason": "CANCELLATION",
+          "verifiedTransactionAmount": 416775,
+          "verifiedRetrievalRefNumber": "962254",
+          "verifiedTransactionTimestamp": "2025-12-03T21:04:05.784+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc3MDcwMCwiZXhwIjoxNzY0Nzc0MzAwfQ.Njlk-KUy0Ozl8znVZErKakMIfoxDADHGlJ3xwSEti0A",
+          "X-TIMESTAMP": "2025-12-03T21:05:00.027+07:00",
+          "X-SIGNATURE": "ea32e1f3c4aba8b77dde2a7aad225f902608c8ab904b6ef7a43ddf64b8f73ea9",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "1ebbb9b459bd4d7b61d90f26c54b09ee9febe019de4f7711095f4bc0dbe995f0"
+        }
+      },
+      "response": {
+        "success": false,
+        "message": "Cannot process CANCELLATION for transaction with status \"NOT_COLLECTED\". Only COLLECTED transactions can be declined or charged back.",
+        "content": {
+          "hint": "Check the request parameters match the original transaction"
+        }
+      }
     }
   },
   {
-    "case": "mcc: 7311 - pmt: WALLET ",
     "register": {
       "request": {
         "body": {
@@ -715,6 +954,37 @@
             "auditFlagged": false,
             "penaltyApplied": false
           }
+        }
+      }
+    },
+    "decline": {
+      "request": {
+        "body": {
+          "transactionRef": "BANK_20251203210406_83276_983443",
+          "ref": "DEC_BANK_20251203210501_983443",
+          "currency": "IDR",
+          "refundAmount": 300078,
+          "refundVatAmount": 29674,
+          "reason": "CANCELLATION",
+          "verifiedTransactionAmount": 300078,
+          "verifiedRetrievalRefNumber": "983443",
+          "verifiedTransactionTimestamp": "2025-12-03T21:04:05.871+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc3MDcwMCwiZXhwIjoxNzY0Nzc0MzAwfQ.Njlk-KUy0Ozl8znVZErKakMIfoxDADHGlJ3xwSEti0A",
+          "X-TIMESTAMP": "2025-12-03T21:05:00.071+07:00",
+          "X-SIGNATURE": "7f48c1e88fa41aba4512199e9300b7b72bed6b000d4fa022862d6ddb83a822db",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "1ebbb9b459bd4d7b61d90f26c54b09ee9febe019de4f7711095f4bc0dbe995f0"
+        }
+      },
+      "response": {
+        "success": false,
+        "message": "Cannot process CANCELLATION for transaction with status \"NOT_COLLECTED\". Only COLLECTED transactions can be declined or charged back.",
+        "content": {
+          "hint": "Check the request parameters match the original transaction"
         }
       }
     }

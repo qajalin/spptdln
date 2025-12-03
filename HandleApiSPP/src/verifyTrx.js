@@ -44,13 +44,14 @@ function configHeaderVerify(payloadVerify,path,merchantKey){
 function dataVerify(mccCode, countryCode, currency, mccCode, pmt, txnTimestamp) {
     const issuer = getRandomElement(bankList);
     let retrievalRefNumber = generateRandomString(6)
+    const totalAmount = generateRandomInt(10,100)
     return {
         ref: `BANK_${txnTimestamp}_${generateRandomString(5)}_${retrievalRefNumber}`,
-        totalAmount:1000,
+        totalAmount,
         currency,
         countryCode,
         paymentMethods: {
-            [pmt]: 1000
+            [pmt]: totalAmount
         },
         //transactionFee: 0,
         mccCode,
