@@ -22,7 +22,7 @@ async function readFile(process) {
                     header:returnedData.error?returnedData.error.config.headers:null
                 }
                 ,
-                response:returnedData.error?returnedData.error.response.data:returnedData.response
+                response:returnedData.error?returnedData.error.response.data:returnedData.response.data
                 
             }
             // register:{
