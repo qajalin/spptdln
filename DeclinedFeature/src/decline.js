@@ -37,10 +37,52 @@ const bodyRequest = data =>{
         reason:"CANCELLATION",
         verifiedTransactionAmount:totalAmount,
         verifiedRetrievalRefNumber:retrievalRefNumber,
-        verifiedTransactionTimestamp:xtimeStamp
+        verifiedTransactionTimestamp:transactionTime
 
     }
 }
+
+// const bodyRequestChargeback = data =>{
+//     const {totalAmount, vatAmount,} = data.verify.response.body.content
+//     const {retrievalRefNumber, currency,transactionTime,ref} = data.verify.request.body
+//     const {"X-TIMESTAMP":xtimeStamp} = data.verify.request.header
+//     const timestamp  = moment().format('YYYYMMDDHHmmss')
+//     const totPartial = 30000
+//     return {
+//         transactionRef:ref,
+//         ref: `CHB_${ref.slice(0,4)}_${timestamp}_${retrievalRefNumber}`,
+//         currency:"IDR",
+//         refundAmount:parseInt(totalAmount)-totPartial,
+//         refundVatAmount:parseInt(vatAmount)-(totPartial*0.11),
+//         reason:"PARTIAL",
+//         verifiedTransactionAmount:totalAmount,
+//         verifiedRetrievalRefNumber:retrievalRefNumber,
+//         verifiedTransactionTimestamp:transactionTime
+//     }
+// }
+
+
+
+
+
+// const bodyRequestChargeback = data =>{
+//     const {totalAmount, vatAmount,} = data.verify.response.body.content
+//     const {retrievalRefNumber, currency,transactionTime,ref} = data.verify.request.body
+//     const {"X-TIMESTAMP":xtimeStamp} = data.verify.request.header
+//     const timestamp  = moment().format('YYYYMMDDHHmmss')
+//     const totPartial = 30000
+//     return {
+//         transactionRef:ref,
+//         ref: `CHB_${ref.slice(0,4)}_${timestamp}_${retrievalRefNumber}`,
+//         currency:"IDR",
+//         refundAmount:totalAmount,
+//         refundVatAmount:parseInt(vatAmount)-(totPartial*0.11),
+//         reason:"TAX_CORRECTION",
+//         verifiedTransactionAmount:totalAmount,
+//         verifiedRetrievalRefNumber:retrievalRefNumber,
+//         verifiedTransactionTimestamp:transactionTime
+//     }
+// }
 
 
 

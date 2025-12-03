@@ -4,18 +4,18 @@
     "register": {
       "request": {
         "body": {
-          "registeredName": "TEST NON pmse -Tanpa Clasf - 5815 - ID USD - US - MEDIA_AND_ENTERTAINMENT - 4515653",
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5815 - ID USD - US - MEDIA_AND_ENTERTAINMENT - 7168276",
           "registrationNumber": "REGMEDIA_AND_ENTERTAINMENT",
           "countryCode": "ID",
-          "merchantName": "Perusahaan DI 5815 - 16377",
+          "merchantName": "Perusahaan DI 5815 - 74837",
           "currency": "USD",
           "classification": "MEDIA_AND_ENTERTAINMENT",
           "mccCode": "5815",
           "merchantCity": "New York",
           "merchantCountryCode": "US",
-          "acquirerInstitutionId": "ACQ57378",
+          "acquirerInstitutionId": "ACQ21684",
           "phoneNumber": "+91123456789",
-          "merchantId": "MID-14559"
+          "merchantId": "MID-91733"
         }
       },
       "response": {
@@ -24,8 +24,8 @@
           "success": true,
           "message": "Client registered successfully.",
           "content": {
-            "apiKey": "91c7008a68181e71fd19aa6153f103d2e54af61e999f4c98217a16ea1c0ffeab",
-            "secret": "8df22d6d281fb3ef76e5aec9bd8828303d3374eae981e394a173f5f73b23ef81"
+            "apiKey": "791d04d3fffaca36a7535a93ee03736ac90cc3f7915bc99e8c918aab4d462ac1",
+            "secret": "f0d6be08c5090505e632e4836293029d25f7aad7d73719435e1300cf0080693f"
           }
         }
       }
@@ -33,29 +33,29 @@
     "verify": {
       "request": {
         "body": {
-          "ref": "BANK_20251203123627_57258_364532",
-          "totalAmount": 10000,
+          "ref": "BANK_20251203174505_75184_665614",
+          "totalAmount": 1000,
           "currency": "USD",
           "countryCode": "ID",
           "paymentMethods": {
-            "WALLET": 10000
+            "WALLET": 1000
           },
           "mccCode": "5815",
-          "issuingBank": "CIMB",
+          "issuingBank": "BNI",
           "issuerCountryCode": "ID",
-          "cardType": "GPN",
-          "retrievalRefNumber": "364532",
+          "cardType": "VISA",
+          "retrievalRefNumber": "665614",
           "destinationType": "PAYMENT",
-          "transactionTime": "2025-12-03T12:36:27.203+07:00"
+          "transactionTime": "2025-12-03T17:45:04.180+07:00"
         },
         "header": {
           "Accept": "application/json, text/plain, */*",
           "Content-Type": "application/json",
-          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc0MDE4NywiZXhwIjoxNzY0NzQzNzg3fQ.IGUTEzlsK_il93Nj84uU5Ug_wyAYCYqNJTXibFER3E4",
-          "X-SIGNATURE": "4384d170b5ae08abee65c890278970cb3de01993af1e08c7ff7be5e1e9b85544",
-          "X-TIMESTAMP": "2025-12-03T12:36:27.403+07:00",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "f7117f99a4b45b60728e759c3d266f6ce5077cd1afc84f5183d5ee401f7f6a0d",
+          "X-TIMESTAMP": "2025-12-03T17:45:05.180+07:00",
           "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
-          "X-MERCHANT-KEY": "91c7008a68181e71fd19aa6153f103d2e54af61e999f4c98217a16ea1c0ffeab"
+          "X-MERCHANT-KEY": "791d04d3fffaca36a7535a93ee03736ac90cc3f7915bc99e8c918aab4d462ac1"
         }
       },
       "response": {
@@ -64,13 +64,13 @@
           "success": true,
           "message": "Transaction verified successfully.",
           "content": {
-            "transactionId": "692fcc5baa2b88f2530e494d",
-            "totalAmount": 166710000,
+            "transactionId": "693014b1c418ba3db685e308",
+            "totalAmount": 16671000,
             "status": "COLLECTED",
-            "vatAmount": 16520794,
-            "merchantAmount": 150189206,
-            "foreignAmount": 10000,
-            "foreignVatAmount": 990.99,
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
             "exchangeRateUsed": 16671,
             "auditFlagged": false,
             "penaltyApplied": false
@@ -84,18 +84,18 @@
     "register": {
       "request": {
         "body": {
-          "registeredName": "TEST NON pmse -Tanpa Clasf - 4899 - ID USD - US - MEDIA_AND_ENTERTAINMENT - 3125859",
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 4899 - ID USD - US - MEDIA_AND_ENTERTAINMENT - 8365688",
           "registrationNumber": "REGMEDIA_AND_ENTERTAINMENT",
           "countryCode": "ID",
-          "merchantName": "Perusahaan DI 4899 - 83413",
+          "merchantName": "Perusahaan DI 4899 - 38235",
           "currency": "USD",
           "classification": "MEDIA_AND_ENTERTAINMENT",
           "mccCode": "4899",
           "merchantCity": "New York",
           "merchantCountryCode": "US",
-          "acquirerInstitutionId": "ACQ45333",
+          "acquirerInstitutionId": "ACQ62186",
           "phoneNumber": "+91123456789",
-          "merchantId": "MID-76311"
+          "merchantId": "MID-38329"
         }
       },
       "response": {
@@ -104,8 +104,8 @@
           "success": true,
           "message": "Client registered successfully.",
           "content": {
-            "apiKey": "be1ac91509e5a3d8c62a0ae2c19b351abd4a03fd82a3f74247e882c812e1bb04",
-            "secret": "ffe56cda3537d65ed86667b3aa7c4c6601549cead8d2a8b9608c9b9584b7fa3a"
+            "apiKey": "7cd04b219cf609aa0f13fe86a15c2dcbd381e3ab713f3b679bb920bc30205df9",
+            "secret": "550031c2d3be7058f1015bb8ed63778a804ab8ca86c57424a557dc289adbaddf"
           }
         }
       }
@@ -113,29 +113,29 @@
     "verify": {
       "request": {
         "body": {
-          "ref": "BANK_20251203123627_36113_399697",
-          "totalAmount": 10000,
+          "ref": "BANK_20251203174505_23858_566717",
+          "totalAmount": 1000,
           "currency": "USD",
           "countryCode": "ID",
           "paymentMethods": {
-            "WALLET": 10000
+            "WALLET": 1000
           },
           "mccCode": "4899",
-          "issuingBank": "BTN",
+          "issuingBank": "CIMB",
           "issuerCountryCode": "ID",
-          "cardType": "JCB",
-          "retrievalRefNumber": "399697",
+          "cardType": "MASTERCARD",
+          "retrievalRefNumber": "566717",
           "destinationType": "PAYMENT",
-          "transactionTime": "2025-12-03T12:36:27.359+07:00"
+          "transactionTime": "2025-12-03T17:45:04.333+07:00"
         },
         "header": {
           "Accept": "application/json, text/plain, */*",
           "Content-Type": "application/json",
-          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc0MDE4NywiZXhwIjoxNzY0NzQzNzg3fQ.IGUTEzlsK_il93Nj84uU5Ug_wyAYCYqNJTXibFER3E4",
-          "X-SIGNATURE": "2d5d5a4d2e2d59e4cbdc1f50e545a27c15d1696d72a50e3f3f26002fab57e45a",
-          "X-TIMESTAMP": "2025-12-03T12:36:27.559+07:00",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "c8a12e8f93b50084a052e7154381e58c982d58fdefc382a44a27948147073c8e",
+          "X-TIMESTAMP": "2025-12-03T17:45:05.333+07:00",
           "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
-          "X-MERCHANT-KEY": "be1ac91509e5a3d8c62a0ae2c19b351abd4a03fd82a3f74247e882c812e1bb04"
+          "X-MERCHANT-KEY": "7cd04b219cf609aa0f13fe86a15c2dcbd381e3ab713f3b679bb920bc30205df9"
         }
       },
       "response": {
@@ -144,13 +144,13 @@
           "success": true,
           "message": "Transaction verified successfully.",
           "content": {
-            "transactionId": "692fcc5baa2b88f2530e496f",
-            "totalAmount": 166710000,
+            "transactionId": "693014b1c418ba3db685e33a",
+            "totalAmount": 16671000,
             "status": "COLLECTED",
-            "vatAmount": 16520794,
-            "merchantAmount": 150189206,
-            "foreignAmount": 10000,
-            "foreignVatAmount": 990.99,
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
             "exchangeRateUsed": 16671,
             "auditFlagged": false,
             "penaltyApplied": false
@@ -164,18 +164,18 @@
     "register": {
       "request": {
         "body": {
-          "registeredName": "TEST NON pmse -Tanpa Clasf - 7311 - ID USD - US - MEDIA_AND_ENTERTAINMENT - 2391293",
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 7311 - ID USD - US - MEDIA_AND_ENTERTAINMENT - 4674765",
           "registrationNumber": "REGMEDIA_AND_ENTERTAINMENT",
           "countryCode": "ID",
-          "merchantName": "Perusahaan DI 7311 - 87768",
+          "merchantName": "Perusahaan DI 7311 - 27121",
           "currency": "USD",
           "classification": "MEDIA_AND_ENTERTAINMENT",
           "mccCode": "7311",
           "merchantCity": "New York",
           "merchantCountryCode": "US",
-          "acquirerInstitutionId": "ACQ32183",
+          "acquirerInstitutionId": "ACQ98219",
           "phoneNumber": "+91123456789",
-          "merchantId": "MID-89783"
+          "merchantId": "MID-62864"
         }
       },
       "response": {
@@ -184,8 +184,8 @@
           "success": true,
           "message": "Client registered successfully.",
           "content": {
-            "apiKey": "0b3f3967fae8a3c7055b4fd6bdbbb3ad8ba94679863d2aeeb40c8e95682fa9f2",
-            "secret": "08a72e1dd8c02014930c1d1cf3397ae16815f0a032b8b2821e9e83e0496b3ea8"
+            "apiKey": "6188141e0d4cf522f67120252286f9e43ef3d47524fb68ef31e925e27dadee41",
+            "secret": "a4a119197b85c2a9885b9d2db0296b4dc0a5357046c3e36b6511f5633dd4d49a"
           }
         }
       }
@@ -193,29 +193,29 @@
     "verify": {
       "request": {
         "body": {
-          "ref": "BANK_20251203123627_29331_765389",
-          "totalAmount": 10000,
+          "ref": "BANK_20251203174505_29367_919375",
+          "totalAmount": 1000,
           "currency": "USD",
           "countryCode": "ID",
           "paymentMethods": {
-            "WALLET": 10000
+            "WALLET": 1000
           },
           "mccCode": "7311",
-          "issuingBank": "BTN",
+          "issuingBank": "DANAMON",
           "issuerCountryCode": "ID",
-          "cardType": "GPN",
-          "retrievalRefNumber": "765389",
+          "cardType": "CUP",
+          "retrievalRefNumber": "919375",
           "destinationType": "PAYMENT",
-          "transactionTime": "2025-12-03T12:36:27.525+07:00"
+          "transactionTime": "2025-12-03T17:45:04.442+07:00"
         },
         "header": {
           "Accept": "application/json, text/plain, */*",
           "Content-Type": "application/json",
-          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc0MDE4NywiZXhwIjoxNzY0NzQzNzg3fQ.IGUTEzlsK_il93Nj84uU5Ug_wyAYCYqNJTXibFER3E4",
-          "X-SIGNATURE": "31b67afd78477b56a2788b02efac031a629d76839f905157488fb901e11bafaf",
-          "X-TIMESTAMP": "2025-12-03T12:36:27.725+07:00",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "2fc5cb42ef84bd3939294555f8be2a344973d14292581789589f6e8341599278",
+          "X-TIMESTAMP": "2025-12-03T17:45:05.442+07:00",
           "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
-          "X-MERCHANT-KEY": "0b3f3967fae8a3c7055b4fd6bdbbb3ad8ba94679863d2aeeb40c8e95682fa9f2"
+          "X-MERCHANT-KEY": "6188141e0d4cf522f67120252286f9e43ef3d47524fb68ef31e925e27dadee41"
         }
       },
       "response": {
@@ -224,13 +224,13 @@
           "success": true,
           "message": "Transaction verified successfully.",
           "content": {
-            "transactionId": "692fcc5baa2b88f2530e4991",
-            "totalAmount": 166710000,
+            "transactionId": "693014b1c418ba3db685e35c",
+            "totalAmount": 16671000,
             "status": "COLLECTED",
-            "vatAmount": 16520794,
-            "merchantAmount": 150189206,
-            "foreignAmount": 10000,
-            "foreignVatAmount": 990.99,
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
             "exchangeRateUsed": 16671,
             "auditFlagged": false,
             "penaltyApplied": false
@@ -244,18 +244,18 @@
     "register": {
       "request": {
         "body": {
-          "registeredName": "TEST NON pmse -Tanpa Clasf - 7333 - ID USD - US - MEDIA_AND_ENTERTAINMENT - 1557552",
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 7333 - ID USD - US - MEDIA_AND_ENTERTAINMENT - 9676454",
           "registrationNumber": "REGMEDIA_AND_ENTERTAINMENT",
           "countryCode": "ID",
-          "merchantName": "Perusahaan DI 7333 - 48786",
+          "merchantName": "Perusahaan DI 7333 - 55524",
           "currency": "USD",
           "classification": "MEDIA_AND_ENTERTAINMENT",
           "mccCode": "7333",
           "merchantCity": "New York",
           "merchantCountryCode": "US",
-          "acquirerInstitutionId": "ACQ34438",
+          "acquirerInstitutionId": "ACQ83522",
           "phoneNumber": "+91123456789",
-          "merchantId": "MID-17999"
+          "merchantId": "MID-74171"
         }
       },
       "response": {
@@ -264,8 +264,8 @@
           "success": true,
           "message": "Client registered successfully.",
           "content": {
-            "apiKey": "9fdda2ea880afde9d670e636a0bef648425dcf3526df4599b20a74589a392f57",
-            "secret": "cc4a4f9f2160ed2b49e1eabe9fd0d2a4bcf7af9e1123517d1917ccaa2061d118"
+            "apiKey": "6ce8beccbb6a65174a39d5545f3ba23d1f943f06fbff0487850ed66e4959f805",
+            "secret": "041d1d1347b938d5e118c24310fec20ab582551a6fab348baa1abca5d1be78fd"
           }
         }
       }
@@ -273,29 +273,29 @@
     "verify": {
       "request": {
         "body": {
-          "ref": "BANK_20251203123627_93525_292834",
-          "totalAmount": 10000,
+          "ref": "BANK_20251203174505_45238_853458",
+          "totalAmount": 1000,
           "currency": "USD",
           "countryCode": "ID",
           "paymentMethods": {
-            "WALLET": 10000
+            "WALLET": 1000
           },
           "mccCode": "7333",
-          "issuingBank": "MDR",
+          "issuingBank": "BNI",
           "issuerCountryCode": "ID",
-          "cardType": "AMEX",
-          "retrievalRefNumber": "292834",
+          "cardType": "JCB",
+          "retrievalRefNumber": "853458",
           "destinationType": "PAYMENT",
-          "transactionTime": "2025-12-03T12:36:27.656+07:00"
+          "transactionTime": "2025-12-03T17:45:04.571+07:00"
         },
         "header": {
           "Accept": "application/json, text/plain, */*",
           "Content-Type": "application/json",
-          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc0MDE4NywiZXhwIjoxNzY0NzQzNzg3fQ.IGUTEzlsK_il93Nj84uU5Ug_wyAYCYqNJTXibFER3E4",
-          "X-SIGNATURE": "27054cebb052a868ef04adcf50749564d2712d225b719837b89cf00d9f50f8bd",
-          "X-TIMESTAMP": "2025-12-03T12:36:27.856+07:00",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "1c2dad3ba589716a05ba5632cb8024f5717ddfaec42b51fdcd2a6d4ee0831aa6",
+          "X-TIMESTAMP": "2025-12-03T17:45:05.571+07:00",
           "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
-          "X-MERCHANT-KEY": "9fdda2ea880afde9d670e636a0bef648425dcf3526df4599b20a74589a392f57"
+          "X-MERCHANT-KEY": "6ce8beccbb6a65174a39d5545f3ba23d1f943f06fbff0487850ed66e4959f805"
         }
       },
       "response": {
@@ -304,13 +304,2653 @@
           "success": true,
           "message": "Transaction verified successfully.",
           "content": {
-            "transactionId": "692fcc5caa2b88f2530e49b9",
-            "totalAmount": 166710000,
+            "transactionId": "693014b1c418ba3db685e38f",
+            "totalAmount": 16671000,
             "status": "COLLECTED",
-            "vatAmount": 16520794,
-            "merchantAmount": 150189206,
-            "foreignAmount": 10000,
-            "foreignVatAmount": 990.99,
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5816 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5816 - ID USD - US - GAMING - 4981143",
+          "registrationNumber": "REGGAMING",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5816 - 18961",
+          "currency": "USD",
+          "classification": "GAMING",
+          "mccCode": "5816",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ96164",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-87184"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "2952c15c1ca129bfebc2ac844ebc960f815285910daafc89149db7644e24e059",
+            "secret": "41b167a01d21417211a6275ba680e252e319be22f3ebaf13caeacdd864c9d9bc"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174505_82216_688287",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5816",
+          "issuingBank": "BTN",
+          "issuerCountryCode": "ID",
+          "cardType": "JCB",
+          "retrievalRefNumber": "688287",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:04.743+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "c2479736edf4958a8dc5d75f6dbf340bc4ee63465f74ea086a1859649a319f2a",
+          "X-TIMESTAMP": "2025-12-03T17:45:05.744+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "2952c15c1ca129bfebc2ac844ebc960f815285910daafc89149db7644e24e059"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b2c418ba3db685e3b4",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7955 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 7955 - ID USD - US - GAMING - 7588653",
+          "registrationNumber": "REGGAMING",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7955 - 23299",
+          "currency": "USD",
+          "classification": "GAMING",
+          "mccCode": "7955",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ34584",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-75466"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "d8272ce3673513329d59a1f0724bcc954e72b0e42967d0ae660588f2ce9cd798",
+            "secret": "6614a3bc63e308949ddb8a12a69ce04c6c961dfd2bbda761f901ff07c3e410fd"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174505_83748_894392",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "7955",
+          "issuingBank": "BRI",
+          "issuerCountryCode": "ID",
+          "cardType": "JCB",
+          "retrievalRefNumber": "894392",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:04.906+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "b204633bbb1e093c77cb61326392ce89e0cf7ef51b9aa95ac952a00c3b85fe15",
+          "X-TIMESTAMP": "2025-12-03T17:45:05.906+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "d8272ce3673513329d59a1f0724bcc954e72b0e42967d0ae660588f2ce9cd798"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b2c418ba3db685e406",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7994 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 7994 - ID USD - US - GAMING - 5881998",
+          "registrationNumber": "REGGAMING",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7994 - 39631",
+          "currency": "USD",
+          "classification": "GAMING",
+          "mccCode": "7994",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ88644",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-33689"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "7499ff47a12be7470002df1c3b01d7caed68de7ee51a083dcfa54338f9283db6",
+            "secret": "bb0ba3df25d03f419ce1c12ec7b04eb0d7680baa3ecb793789b7d3911237f828"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174506_61444_577585",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "7994",
+          "issuingBank": "BTN",
+          "issuerCountryCode": "ID",
+          "cardType": "MASTERCARD",
+          "retrievalRefNumber": "577585",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:05.046+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "6e01d3a3ec17fdbbddaeae9db5d3a74ceedf68afa0e819128eeb4a58d325a4bc",
+          "X-TIMESTAMP": "2025-12-03T17:45:06.046+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "7499ff47a12be7470002df1c3b01d7caed68de7ee51a083dcfa54338f9283db6"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b2c418ba3db685e439",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 4816 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 4816 - ID USD - US - SOFTWARE_AND_SAAS - 5911923",
+          "registrationNumber": "REGSOFTWARE_AND_SAAS",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 4816 - 13184",
+          "currency": "USD",
+          "classification": "SOFTWARE_AND_SAAS",
+          "mccCode": "4816",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ81798",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-96642"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "46e8ff47d6c306ba8cc246e4c2299e54979dc2774c009b089676dea44608b03f",
+            "secret": "7bd45b5594f5f3002cafc4672d334d40da1c967e53b43cb35003edef07199090"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174506_87736_433316",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "4816",
+          "issuingBank": "BNI",
+          "issuerCountryCode": "ID",
+          "cardType": "VISA",
+          "retrievalRefNumber": "433316",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:05.499+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "6ca91fd48fe167eeb7565e3d831ef6594a813072fdd190d4031a7f9767ac1f02",
+          "X-TIMESTAMP": "2025-12-03T17:45:06.500+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "46e8ff47d6c306ba8cc246e4c2299e54979dc2774c009b089676dea44608b03f"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b2c418ba3db685e49f",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7372 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 7372 - ID USD - US - SOFTWARE_AND_SAAS - 3262778",
+          "registrationNumber": "REGSOFTWARE_AND_SAAS",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7372 - 35615",
+          "currency": "USD",
+          "classification": "SOFTWARE_AND_SAAS",
+          "mccCode": "7372",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ73839",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-45374"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "868f129bc9f10c86921329c3fd180ae038e2b80bb0cda4c48d5e64e40195faad",
+            "secret": "9a06b5ba376bb2f60b9dd3892a8ad973076597c6295164e35af0e5946a887156"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174506_77518_597213",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "7372",
+          "issuingBank": "BCA",
+          "issuerCountryCode": "ID",
+          "cardType": "AMEX",
+          "retrievalRefNumber": "597213",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:05.673+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "728b0b6384878ce7c3de89ec39df55b11e5c3bb42cb11c170d9d72b0336e24b3",
+          "X-TIMESTAMP": "2025-12-03T17:45:06.673+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "868f129bc9f10c86921329c3fd180ae038e2b80bb0cda4c48d5e64e40195faad"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b2c418ba3db685e4e3",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7379 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 7379 - ID USD - US - SOFTWARE_AND_SAAS - 5448915",
+          "registrationNumber": "REGSOFTWARE_AND_SAAS",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7379 - 18524",
+          "currency": "USD",
+          "classification": "SOFTWARE_AND_SAAS",
+          "mccCode": "7379",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ85178",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-22215"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "fa7ee6fbb9d7ab88a37509995c0329d62978fd03a4842eb0b7e2a8186de1c661",
+            "secret": "5f95bc6f5e69974375fa54e40cabe1ee3b305426be18e7ece4a9fef647d4a697"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174506_22634_346711",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "7379",
+          "issuingBank": "MDR",
+          "issuerCountryCode": "ID",
+          "cardType": "VISA",
+          "retrievalRefNumber": "346711",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:05.828+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "27bc07ea50272ca353ef81a7195efe4bca546424792fdbb72ee8254d905f9ed5",
+          "X-TIMESTAMP": "2025-12-03T17:45:06.828+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "fa7ee6fbb9d7ab88a37509995c0329d62978fd03a4842eb0b7e2a8186de1c661"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b3c418ba3db685e527",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 0,
+            "merchantAmount": 16671000,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 0,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5311 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5311 - ID USD - US - E_COMMERCE - 5531572",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5311 - 53935",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5311",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ12815",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-82853"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "95b600054b76a186b228986289cc486d1c921eb342dcbd068679de0b90592548",
+            "secret": "d055dc6fe5ea281c7e416042b2d85b1e92ec0e975dc9d07a6f789254f0177d3b"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174506_56522_748137",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5311",
+          "issuingBank": "BCA",
+          "issuerCountryCode": "ID",
+          "cardType": "AMEX",
+          "retrievalRefNumber": "748137",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:05.958+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "1383e40e8a681e42bdd898d63f90cba2b26b9ffdabba52c34702d1a4e14d86e0",
+          "X-TIMESTAMP": "2025-12-03T17:45:06.958+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "95b600054b76a186b228986289cc486d1c921eb342dcbd068679de0b90592548"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b3c418ba3db685e55a",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5964 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5964 - ID USD - US - E_COMMERCE - 9326818",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5964 - 21589",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5964",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ22268",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-39144"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "859ebdf552b71a1584a81479e443902bfd1a8e03f29953651cac48e8d6e280cf",
+            "secret": "890bdbe1b82889177990638c450f4b2a37fd5e2b5b2e1a047e9a69ab5666cd0c"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174507_73411_276932",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5964",
+          "issuingBank": "BTN",
+          "issuerCountryCode": "ID",
+          "cardType": "MASTERCARD",
+          "retrievalRefNumber": "276932",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:06.091+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "1ae62699f189d209782a193ff1e956f258321bc8e3264cff6e5b0e4a51cfedad",
+          "X-TIMESTAMP": "2025-12-03T17:45:07.091+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "859ebdf552b71a1584a81479e443902bfd1a8e03f29953651cac48e8d6e280cf"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b3c418ba3db685e57c",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5965 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5965 - ID USD - US - E_COMMERCE - 5384577",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5965 - 93436",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5965",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ54755",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-42116"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "f6a127ae0389c617fc84a60eac98b853ef3587b98234e1111a7eeb72a26abb50",
+            "secret": "925150b5f52182cda26d1812949de5f45d135cd53c29acbb983eb468bdc9f05a"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174507_64178_129575",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5965",
+          "issuingBank": "BCA",
+          "issuerCountryCode": "ID",
+          "cardType": "MASTERCARD",
+          "retrievalRefNumber": "129575",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:06.216+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "30ba806992434c9658593faca15e6df55d9aed62d777342874d17aae056f127b",
+          "X-TIMESTAMP": "2025-12-03T17:45:07.216+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "f6a127ae0389c617fc84a60eac98b853ef3587b98234e1111a7eeb72a26abb50"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b3c418ba3db685e59e",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5966 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5966 - ID USD - US - E_COMMERCE - 8546538",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5966 - 18284",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5966",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ92514",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-76689"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "0b003d0e79c0480d8cf6621d94a280d5196c8b01dfd69f1bb7788e4e6762490d",
+            "secret": "42062eb1f104754eef3d6c898b3542ded2a025b66f016e4c3755660db3d065db"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174507_18694_751966",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5966",
+          "issuingBank": "MDR",
+          "issuerCountryCode": "ID",
+          "cardType": "VISA",
+          "retrievalRefNumber": "751966",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:06.386+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "9972662132cd788bea0a66f0bf14cec3a5c8be3bb6cbdaaee44a68ac872b9c61",
+          "X-TIMESTAMP": "2025-12-03T17:45:07.386+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "0b003d0e79c0480d8cf6621d94a280d5196c8b01dfd69f1bb7788e4e6762490d"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b3c418ba3db685e5d1",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5967 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5967 - ID USD - US - E_COMMERCE - 6284418",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5967 - 53658",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5967",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ79431",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-45973"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "ace3d9a00a7fe500ec2d953b2fe5cae9ed30f3bd242c1fd0ef47600e9a4a29b8",
+            "secret": "bbbe6de191c0b1e13dd3b793a7a10e2cfa7816cad7e0260d25588f63bc0ef3c5"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174507_41556_399943",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5967",
+          "issuingBank": "BRI",
+          "issuerCountryCode": "ID",
+          "cardType": "GPN",
+          "retrievalRefNumber": "399943",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:06.543+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "ab3a9db0cdd3300a1d2ce11f88060c9023b259c56c386975340f3252bee455d9",
+          "X-TIMESTAMP": "2025-12-03T17:45:07.543+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "ace3d9a00a7fe500ec2d953b2fe5cae9ed30f3bd242c1fd0ef47600e9a4a29b8"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b3c418ba3db685e615",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5968 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5968 - ID USD - US - E_COMMERCE - 1561474",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5968 - 84961",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5968",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ63641",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-49764"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "4c9c0f2f3022efc392dfcf9e5c585b9bd6287472de246da49c36d6ba417e554f",
+            "secret": "4a02fba4fcce54c20db402d7dc9bbef38d4aa2bdbe06d69bde4102f80cb8262b"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174507_92941_275362",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5968",
+          "issuingBank": "BNI",
+          "issuerCountryCode": "ID",
+          "cardType": "GPN",
+          "retrievalRefNumber": "275362",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:06.702+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "45a4aca87a742ca017f4f5b4423f5888737688414ff4e6d005a64d6747282c32",
+          "X-TIMESTAMP": "2025-12-03T17:45:07.702+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "4c9c0f2f3022efc392dfcf9e5c585b9bd6287472de246da49c36d6ba417e554f"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b3c418ba3db685e659",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5969 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5969 - ID USD - US - E_COMMERCE - 1823542",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5969 - 96138",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5969",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ79559",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-12287"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "f4e316e672694fac7588ce305529994a30f683698171a9b77ad829f3e0bef1ef",
+            "secret": "1055cb3b422c9343db004ecacaa56077b567ec93947baccb4992f4cdef12d9cf"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174507_75698_326547",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5969",
+          "issuingBank": "DANAMON",
+          "issuerCountryCode": "ID",
+          "cardType": "VISA",
+          "retrievalRefNumber": "326547",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:06.879+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "4c0db0b89c7fdc53dda645aab60e3108ae97fb84b2439ced31d1177177bcb613",
+          "X-TIMESTAMP": "2025-12-03T17:45:07.879+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "f4e316e672694fac7588ce305529994a30f683698171a9b77ad829f3e0bef1ef"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b4c418ba3db685e69d",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5933 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5933 - ID USD - US - E_COMMERCE - 1935463",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5933 - 37233",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5933",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ22311",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-81182"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "fd32a724713903a5dc89e512a82c30c60714f53c843b3712736e498429510ad1",
+            "secret": "dfa86f4cea0b6a20001118806c0227b7edf4f396216cbe39bdf890a271e8c5ec"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174508_94271_214241",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5933",
+          "issuingBank": "DANAMON",
+          "issuerCountryCode": "ID",
+          "cardType": "JCB",
+          "retrievalRefNumber": "214241",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:07.024+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "710cd3a7ade07de1f6b330d9b0180acd5b885e2306272ffdd1af047a3b82d6c7",
+          "X-TIMESTAMP": "2025-12-03T17:45:08.024+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "fd32a724713903a5dc89e512a82c30c60714f53c843b3712736e498429510ad1"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b4c418ba3db685e6e1",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5399 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5399 - ID USD - US - E_COMMERCE - 1959889",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5399 - 34524",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5399",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ62871",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-46183"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "692a3ca65670004d56e286e3301f2047a488fd55046b3f48a9b02970432646e7",
+            "secret": "6f325843408cae49b69a8af0fae975b7f7cf09afdbcef9ff1695db71424fae66"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174508_66274_835947",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5399",
+          "issuingBank": "DANAMON",
+          "issuerCountryCode": "ID",
+          "cardType": "VISA",
+          "retrievalRefNumber": "835947",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:07.192+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "b2864b53fc65d9e7d88cab04cb42d588928029c8b1c8f039f9ca5d44cb2b8ee0",
+          "X-TIMESTAMP": "2025-12-03T17:45:08.192+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "692a3ca65670004d56e286e3301f2047a488fd55046b3f48a9b02970432646e7"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b4c418ba3db685e716",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5732 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5732 - ID USD - US - E_COMMERCE - 1642869",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5732 - 66932",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5732",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ84136",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-57463"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "34c7b9f36615b4024c69d4a7f35e4625337e3aaef276897e9d6d3004951602ef",
+            "secret": "5f8eb5bd0fcd1a396509d35693ec35fa26b2dad2ce9a7ff5fdc7b48cea83ec1b"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174508_26611_749749",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5732",
+          "issuingBank": "BTN",
+          "issuerCountryCode": "ID",
+          "cardType": "JCB",
+          "retrievalRefNumber": "749749",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:07.342+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "4b1919afddb039f383b9e10ad7d9661de25710ee3149a5365a58c654fd713417",
+          "X-TIMESTAMP": "2025-12-03T17:45:08.342+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "34c7b9f36615b4024c69d4a7f35e4625337e3aaef276897e9d6d3004951602ef"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b4c418ba3db685e758",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5734 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5734 - ID USD - US - E_COMMERCE - 2989362",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5734 - 99747",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5734",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ74412",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-56129"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "b77e26bb3a7f75d83c3a60ce3f93576f73813694a94be014c8b15e52d6ed0b30",
+            "secret": "aa65268dc64937630122b5fd6069e8828f06bbecd4548da62d4d81b1db89dae0"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174508_71525_628596",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5734",
+          "issuingBank": "CIMB",
+          "issuerCountryCode": "ID",
+          "cardType": "VISA",
+          "retrievalRefNumber": "628596",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:07.497+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "c459e4e533d8e408b9c88bea1a2f7be940bbf20d003ba9e4790f12c37ae901f3",
+          "X-TIMESTAMP": "2025-12-03T17:45:08.497+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "b77e26bb3a7f75d83c3a60ce3f93576f73813694a94be014c8b15e52d6ed0b30"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b4c418ba3db685e78f",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5735 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5735 - ID USD - US - E_COMMERCE - 3828982",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5735 - 83834",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5735",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ46256",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-17666"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "6e1d221e3452bbb97fe47bda040d8497cffb8153ac30365fd6747176b5b849a5",
+            "secret": "cea0e9570fc442c4584fcde8daa90ca54d5bc9e947fc8946b09f6e4643ea75d7"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174508_64866_524395",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5735",
+          "issuingBank": "BRI",
+          "issuerCountryCode": "ID",
+          "cardType": "JCB",
+          "retrievalRefNumber": "524395",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:07.620+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "c81abc4fd106bf4697bc5955e9602d7a47d65611c3914128c19e172c1a49a0bb",
+          "X-TIMESTAMP": "2025-12-03T17:45:08.620+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "6e1d221e3452bbb97fe47bda040d8497cffb8153ac30365fd6747176b5b849a5"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b4c418ba3db685e7cf",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5817 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5817 - ID USD - US - E_COMMERCE - 5726158",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5817 - 68867",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5817",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ32344",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-79114"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "fe32d6f41a546688c0fd1e43cedd7193a5507ae068c0626da66cee8878da7d88",
+            "secret": "915e5823d285886ad6eb7087d0afceb6b889930b4ca003e637bde00b44aae575"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174508_73542_624993",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5817",
+          "issuingBank": "BRI",
+          "issuerCountryCode": "ID",
+          "cardType": "VISA",
+          "retrievalRefNumber": "624993",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:07.750+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "de5b7fda24d3b53d2744d6ee4f4ce048d025f92db75f0fa886a817b9979a29c0",
+          "X-TIMESTAMP": "2025-12-03T17:45:08.750+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "fe32d6f41a546688c0fd1e43cedd7193a5507ae068c0626da66cee8878da7d88"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b5c418ba3db685e813",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5818 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5818 - ID USD - US - E_COMMERCE - 7386852",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5818 - 82193",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5818",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ66264",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-33396"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "23fb02c46bbd6fd4076bc6afea3ee1805f9441bef2a929a68fef19cd4daf39a8",
+            "secret": "bb8ab847d344967085989c44bc539eb4f5d5b71fe07ea3dc140a0b9268f94166"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174508_53488_119821",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5818",
+          "issuingBank": "BNI",
+          "issuerCountryCode": "ID",
+          "cardType": "MASTERCARD",
+          "retrievalRefNumber": "119821",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:07.889+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "39dff8bce84a98858d233972a77436b8c5343121c86114a581cd7739e4886483",
+          "X-TIMESTAMP": "2025-12-03T17:45:08.890+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "23fb02c46bbd6fd4076bc6afea3ee1805f9441bef2a929a68fef19cd4daf39a8"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b5c418ba3db685e846",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 7399 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 7399 - ID USD - US - E_COMMERCE - 8156257",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 7399 - 83285",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "7399",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ78182",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-78952"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "d9c38944c7e67e9d7a829b63d9e1d7dfa317e5849e9990a131ba9e33fffc9060",
+            "secret": "5ba47843f3c7b08d9bba1c718658ff8340afa6497c715f153bb815ffb76fed60"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174508_34766_138552",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "7399",
+          "issuingBank": "BTN",
+          "issuerCountryCode": "ID",
+          "cardType": "CUP",
+          "retrievalRefNumber": "138552",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:07.993+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "25736f418f87aaa8324e33995b23ff62f925ceee6918a88a4501e68a7b20fdf0",
+          "X-TIMESTAMP": "2025-12-03T17:45:08.993+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "d9c38944c7e67e9d7a829b63d9e1d7dfa317e5849e9990a131ba9e33fffc9060"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b5c418ba3db685e879",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5691 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5691 - ID USD - US - E_COMMERCE - 4813749",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5691 - 51483",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5691",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ77597",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-64777"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "937c05eedc8d134063b5dcb177549433d1f9a3a92d2bbbd9d3becf5d210d8b0a",
+            "secret": "d59b856b041670b86af410df83cae836601adc431d7f758f012d3be3c110fb57"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174509_52829_118442",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5691",
+          "issuingBank": "BTN",
+          "issuerCountryCode": "ID",
+          "cardType": "CUP",
+          "retrievalRefNumber": "118442",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:08.106+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "8028e89b84cba8407f1d5dffe58f6a9a596e10e4f2e77c534bf0e57ef215f538",
+          "X-TIMESTAMP": "2025-12-03T17:45:09.106+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "937c05eedc8d134063b5dcb177549433d1f9a3a92d2bbbd9d3becf5d210d8b0a"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b5c418ba3db685e8bd",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5641 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5641 - ID USD - US - E_COMMERCE - 2179549",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5641 - 53378",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5641",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ78364",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-96925"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "0a53ce65a54f30ebe415d4906e2a20959a8520f2d2211314a3d5ffa720b0d84d",
+            "secret": "92e698b4c03a207a3885dd5139e58f97769fc8b0c6327453db8ddadb55c438a8"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174509_16518_114332",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5641",
+          "issuingBank": "BRI",
+          "issuerCountryCode": "ID",
+          "cardType": "CUP",
+          "retrievalRefNumber": "114332",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:08.219+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "30be7fa2b39a137c739b686d806329ff2f1c044b5f8358f7f8ed91215d4c7205",
+          "X-TIMESTAMP": "2025-12-03T17:45:09.219+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "0a53ce65a54f30ebe415d4906e2a20959a8520f2d2211314a3d5ffa720b0d84d"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b5c418ba3db685e8f2",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5999 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5999 - ID USD - US - E_COMMERCE - 7172465",
+          "registrationNumber": "REGE_COMMERCE",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5999 - 57535",
+          "currency": "USD",
+          "classification": "E_COMMERCE",
+          "mccCode": "5999",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ55441",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-73724"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "9075da84e38d87468002f2c9e2f763ab3d9e42a62167a51a8bd11b7cea6feee1",
+            "secret": "a9975c5841b040da0ab1120fd4295ad1777afc9468f99d34878dcdf7887e77d4"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174509_95554_811854",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5999",
+          "issuingBank": "BCA",
+          "issuerCountryCode": "ID",
+          "cardType": "GPN",
+          "retrievalRefNumber": "811854",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:08.330+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "4f84e573db35e3d281e337fd169cf047ec9b1b3f5bdd9ee28efdad239359c31d",
+          "X-TIMESTAMP": "2025-12-03T17:45:09.330+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "9075da84e38d87468002f2c9e2f763ab3d9e42a62167a51a8bd11b7cea6feee1"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b5c418ba3db685e934",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 4722 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 4722 - ID USD - US - TRAVEL_AND_HOSPITALITY - 3976648",
+          "registrationNumber": "REGTRAVEL_AND_HOSPITALITY",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 4722 - 92199",
+          "currency": "USD",
+          "classification": "TRAVEL_AND_HOSPITALITY",
+          "mccCode": "4722",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ25423",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-15357"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "12a14ea5fa5b5dd3c8f65d34452e5b880c9b5aadfdc5cd142064bad5059401f1",
+            "secret": "26098a140a55ec43091fd13fe3c53b6b45c1ca71938c0e16ca2c5bd72355896b"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174509_66854_794392",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "4722",
+          "issuingBank": "BTN",
+          "issuerCountryCode": "ID",
+          "cardType": "CUP",
+          "retrievalRefNumber": "794392",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:08.438+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "b30d9243ca09459d9b50326f9f4eb63c81024391a4708e5692c8b32b86655d24",
+          "X-TIMESTAMP": "2025-12-03T17:45:09.438+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "12a14ea5fa5b5dd3c8f65d34452e5b880c9b5aadfdc5cd142064bad5059401f1"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b5c418ba3db685e967",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 4789 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 4789 - ID USD - US - TRAVEL_AND_HOSPITALITY - 2154533",
+          "registrationNumber": "REGTRAVEL_AND_HOSPITALITY",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 4789 - 74685",
+          "currency": "USD",
+          "classification": "TRAVEL_AND_HOSPITALITY",
+          "mccCode": "4789",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ89356",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-11476"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "f65a477a6ae751a1367b18a89ad6a8ac3e93f7f0c9db23142cfd40d152425a33",
+            "secret": "093641d3b79325bc0b700fa151a51e5b1d14bc0a80aa715c60d0ee991652d303"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174509_41196_985463",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "4789",
+          "issuingBank": "BTN",
+          "issuerCountryCode": "ID",
+          "cardType": "CUP",
+          "retrievalRefNumber": "985463",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:08.547+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "e9223128ee6ae82be80489941a294dedea08ba4d75b1a17db8bf43c12c502e1f",
+          "X-TIMESTAMP": "2025-12-03T17:45:09.547+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "f65a477a6ae751a1367b18a89ad6a8ac3e93f7f0c9db23142cfd40d152425a33"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b5c418ba3db685e99a",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 4411 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 4411 - ID USD - US - TRAVEL_AND_HOSPITALITY - 8837882",
+          "registrationNumber": "REGTRAVEL_AND_HOSPITALITY",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 4411 - 47252",
+          "currency": "USD",
+          "classification": "TRAVEL_AND_HOSPITALITY",
+          "mccCode": "4411",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ26668",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-43981"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "027487ffb229361c6e23cb846ce82db3fafa3517c173851071c6d625a75685d7",
+            "secret": "e9d923ef836be770f25311f0096c4d858c9b6d5d44d1e79e51582af1b72596ab"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174509_65155_161757",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "4411",
+          "issuingBank": "BNI",
+          "issuerCountryCode": "ID",
+          "cardType": "GPN",
+          "retrievalRefNumber": "161757",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:08.692+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "29d05c3102af3cabf0ca6a42a9ae2cfcbd9d299fee761e373f8c4258173f5624",
+          "X-TIMESTAMP": "2025-12-03T17:45:09.692+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "027487ffb229361c6e23cb846ce82db3fafa3517c173851071c6d625a75685d7"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b5c418ba3db685e9de",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 4121 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 4121 - ID USD - US - TRAVEL_AND_HOSPITALITY - 7663779",
+          "registrationNumber": "REGTRAVEL_AND_HOSPITALITY",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 4121 - 84955",
+          "currency": "USD",
+          "classification": "TRAVEL_AND_HOSPITALITY",
+          "mccCode": "4121",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ71377",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-33124"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "e6ad0bd69d63c5ef3093d84c606c76fa29a8153ff76e6c2a63677c0fe18fac52",
+            "secret": "270a3044ed14b83cf4377a95d260dd9a3c47ff5e02f1a3d508332df9cf7af2d7"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174509_74493_525111",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "4121",
+          "issuingBank": "BTN",
+          "issuerCountryCode": "ID",
+          "cardType": "GPN",
+          "retrievalRefNumber": "525111",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:08.819+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "e9159496f09188d0bc5460598c3ed8a260340204e4f1f0596782baad4a2928be",
+          "X-TIMESTAMP": "2025-12-03T17:45:09.819+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "e6ad0bd69d63c5ef3093d84c606c76fa29a8153ff76e6c2a63677c0fe18fac52"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b6c418ba3db685ea22",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 8299 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 8299 - ID USD - US - EDUCATION - 1474653",
+          "registrationNumber": "REGEDUCATION",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 8299 - 24865",
+          "currency": "USD",
+          "classification": "EDUCATION",
+          "mccCode": "8299",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ52798",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-53855"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "9437d152d59f78adc2a408f64e6a2409024e3fe6e031dbe44238dc4e618743e8",
+            "secret": "a3ec8475ddb6c838393953a608624d6ec07c1144d4af3950cf96ec9b99329b85"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174509_35965_633233",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "8299",
+          "issuingBank": "MDR",
+          "issuerCountryCode": "ID",
+          "cardType": "MASTERCARD",
+          "retrievalRefNumber": "633233",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:08.934+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "03f98de9f75e4a75bf5f379e435eb6bc5e9f7af92de3439056d80e97464483bd",
+          "X-TIMESTAMP": "2025-12-03T17:45:09.934+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "9437d152d59f78adc2a408f64e6a2409024e3fe6e031dbe44238dc4e618743e8"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b6c418ba3db685ea65",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 5192 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 5192 - ID USD - US - EDUCATION - 9244368",
+          "registrationNumber": "REGEDUCATION",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 5192 - 25965",
+          "currency": "USD",
+          "classification": "EDUCATION",
+          "mccCode": "5192",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ62641",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-41193"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "57767c290430f6952fa90f72e41c80ffe7135440c99dc61aa1f530803b55d77a",
+            "secret": "c02fc150b69711347b487c7680f06d5a9e866c4c0f1b38f3d9a568078a4d61e6"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174510_67528_761991",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "5192",
+          "issuingBank": "BRI",
+          "issuerCountryCode": "ID",
+          "cardType": "JCB",
+          "retrievalRefNumber": "761991",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:09.049+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "da9e277b48044ac803965b3b5119d485d31354731fb4da7ba6a0c578f3ae64b1",
+          "X-TIMESTAMP": "2025-12-03T17:45:10.049+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "57767c290430f6952fa90f72e41c80ffe7135440c99dc61aa1f530803b55d77a"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b6c418ba3db685ea93",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 6051 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 6051 - ID USD - US - CRYPTO - 9724827",
+          "registrationNumber": "REGCRYPTO",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 6051 - 71945",
+          "currency": "USD",
+          "classification": "CRYPTO",
+          "mccCode": "6051",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ22464",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-48355"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "71469c3b90a3f1f70a0daf4b29430aca426fb4a90454f01da633b2e419464eab",
+            "secret": "a54a5640e10caea8f3e34ff22ce461d2edea5b355c1d01c0b0a0214d08df0319"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174510_13444_989143",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "6051",
+          "issuingBank": "BNI",
+          "issuerCountryCode": "ID",
+          "cardType": "CUP",
+          "retrievalRefNumber": "989143",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:09.157+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "fa4c498dc7e32bba2b08f070d8c8144e35715e3700a05f5c22d63fb847ada10f",
+          "X-TIMESTAMP": "2025-12-03T17:45:10.157+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "71469c3b90a3f1f70a0daf4b29430aca426fb4a90454f01da633b2e419464eab"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b6c418ba3db685eade",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 6211 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 6211 - ID USD - US - CRYPTO - 3237688",
+          "registrationNumber": "REGCRYPTO",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 6211 - 35246",
+          "currency": "USD",
+          "classification": "CRYPTO",
+          "mccCode": "6211",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ99666",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-68739"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "499679b3b92ccfc36585c3955823fbc928baaf1380c4c34c17634636470ae5c5",
+            "secret": "fdbe8e564be6782fe73cc43803a3a0a7a375188c0c066bc0a223252307903d2f"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174510_85231_916862",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "6211",
+          "issuingBank": "CIMB",
+          "issuerCountryCode": "ID",
+          "cardType": "GPN",
+          "retrievalRefNumber": "916862",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:09.297+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "3a70dd0b2deb3bbfac0b13fea82b6699a6bc9f24c8ecb66c719cdaef04ac6529",
+          "X-TIMESTAMP": "2025-12-03T17:45:10.297+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "499679b3b92ccfc36585c3955823fbc928baaf1380c4c34c17634636470ae5c5"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b6c418ba3db685eb33",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
+            "exchangeRateUsed": 16671,
+            "auditFlagged": false,
+            "penaltyApplied": false
+          }
+        }
+      }
+    }
+  },
+  {
+    "case": "mcc: 6540 - pmt: WALLET ",
+    "register": {
+      "request": {
+        "body": {
+          "registeredName": "TEST NON pmse -Tanpa Clasf - 6540 - ID USD - US - CRYPTO - 7862884",
+          "registrationNumber": "REGCRYPTO",
+          "countryCode": "ID",
+          "merchantName": "Perusahaan DI 6540 - 92735",
+          "currency": "USD",
+          "classification": "CRYPTO",
+          "mccCode": "6540",
+          "merchantCity": "New York",
+          "merchantCountryCode": "US",
+          "acquirerInstitutionId": "ACQ87651",
+          "phoneNumber": "+91123456789",
+          "merchantId": "MID-13448"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Client registered successfully.",
+          "content": {
+            "apiKey": "a7acdd27f5619ffa7d2d4dbe48650272ff6690f72385c54e090ef10eddd8ba31",
+            "secret": "4e51d9dce80356ceb9e33929f3eedd355a3ddbcb94dd985be783fd4b796751d3"
+          }
+        }
+      }
+    },
+    "verify": {
+      "request": {
+        "body": {
+          "ref": "BANK_20251203174510_98389_778415",
+          "totalAmount": 1000,
+          "currency": "USD",
+          "countryCode": "ID",
+          "paymentMethods": {
+            "WALLET": 1000
+          },
+          "mccCode": "6540",
+          "issuingBank": "BRI",
+          "issuerCountryCode": "ID",
+          "cardType": "JCB",
+          "retrievalRefNumber": "778415",
+          "destinationType": "PAYMENT",
+          "transactionTime": "2025-12-03T17:45:09.442+07:00"
+        },
+        "header": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwc3BJZCI6IjY4NmZlNmQ1MGI5MDdlMjg2ZDA1YTI4MSIsImFwaUtleSI6IjVjODQxMjUxZGJiMmRjZTg0ZGNhNGY1ZDQzYWYwMWU4NTU0NDhhYjliMTgyZDY2NTc2MDU5YjNmM2Y1M2EwMjMiLCJ0eXBlIjoicHNwX2FjY2Vzc190b2tlbiIsImlhdCI6MTc2NDc1ODcwNSwiZXhwIjoxNzY0NzYyMzA1fQ.kbXSLed5KeTW6KKV4jBK-OZuUeyQ4t8l8lPZf43t9f0",
+          "X-SIGNATURE": "fac3455fcddcad022ccfd9d3aed01c9c4b26dcdf94431507d70ff21c5264d1cd",
+          "X-TIMESTAMP": "2025-12-03T17:45:10.442+07:00",
+          "X-PARTNER-ID": "5c841251dbb2dce84dca4f5d43af01e855448ab9b182d66576059b3f3f53a023",
+          "X-MERCHANT-KEY": "a7acdd27f5619ffa7d2d4dbe48650272ff6690f72385c54e090ef10eddd8ba31"
+        }
+      },
+      "response": {
+        "httpCode": 200,
+        "body": {
+          "success": true,
+          "message": "Transaction verified successfully.",
+          "content": {
+            "transactionId": "693014b6c418ba3db685eb88",
+            "totalAmount": 16671000,
+            "status": "COLLECTED",
+            "vatAmount": 1652096,
+            "merchantAmount": 15018904,
+            "foreignAmount": 1000,
+            "foreignVatAmount": 99.1,
             "exchangeRateUsed": 16671,
             "auditFlagged": false,
             "penaltyApplied": false

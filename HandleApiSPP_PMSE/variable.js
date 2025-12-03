@@ -18,7 +18,7 @@ const pspPublicKey = ``
 
 //Case Variable
 const paymentMethod = [
-    "CREDIT_CARD"//, "DEBIT_CARD", "WALLET","CURRENT_ACCOUNT","SAVINGS_ACCOUNT"
+    "CREDIT_CARD", "DEBIT_CARD", "WALLET",//"CURRENT_ACCOUNT","SAVINGS_ACCOUNT"
 ]
 
 const currencyList = [
@@ -28,25 +28,16 @@ const currencyList = [
 
 const bankList = ["BCA","BNI","BRI","MDR","CIMB","DANAMON","BTN"]
 
-const principleList = [ "VISA", "MASTERCARD", "JCB", "CUP", "AMEX", "GPN"]//According to response sentinal
+const principleList = [ "VISA", "MASTERCARD", ]//"JCB", "CUP", "AMEX", "GPN"]//According to response sentinal
 
 //Network Hash Key 
 const netHashKey = "KeyTest123" 
 
- function generateRandomString(length) {
-    const characters = '123456789';
-    let result = '';
-    
-    for (let i = 0; i < length; i++) {
-      result += characters.charAt(Math.floor(Math.random() * characters.length));
-    }
-
-    return result;
-}
+ 
 
 //Generate Random String
  function generateRandomString(length) {
-    const characters = '0123456789';
+    const characters = '123456789';
     let result = '';
     
     for (let i = 0; i < length; i++) {

@@ -46,11 +46,11 @@ function dataVerify(mccCode, countryCode, currency, mccCode, pmt, txnTimestamp) 
     let retrievalRefNumber = generateRandomString(6)
     return {
         ref: `BANK_${txnTimestamp}_${generateRandomString(5)}_${retrievalRefNumber}`,
-        totalAmount:10000,
+        totalAmount:1000,
         currency,
         countryCode,
         paymentMethods: {
-            [pmt]: 10000
+            [pmt]: 1000
         },
         //transactionFee: 0,
         mccCode,
@@ -62,7 +62,7 @@ function dataVerify(mccCode, countryCode, currency, mccCode, pmt, txnTimestamp) 
         //authCode: `AUTH${txnTimestamp}_1`,
         retrievalRefNumber,
         destinationType: 'PAYMENT', //enum
-        transactionTime: moment().add(-0.2,"seconds").format('YYYY-MM-DDTHH:mm:ss.SSSZ')
+        transactionTime: moment().add(-1,"second").format('YYYY-MM-DDTHH:mm:ss.SSSZ')
     }
 }
 

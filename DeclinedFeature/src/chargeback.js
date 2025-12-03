@@ -33,7 +33,7 @@ const bodyRequestChargeback = data =>{
         reason:"CANCELLATION",
         verifiedTransactionAmount:totalAmount,
         verifiedRetrievalRefNumber:retrievalRefNumber,
-        verifiedTransactionTimestamp:xtimeStamp
+        verifiedTransactionTimestamp:transactionTime
     }
 }
 
