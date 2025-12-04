@@ -42,7 +42,7 @@ function configHeaderVerify(payloadVerify,path,merchantKey){
 
 function dataVerify(mccCode, countryCode, currency, mccCode, pmt, txnTimestamp) {
     let issuer = getRandomElement(bankList);
-    let totalAmount = parseInt(generateRandomString(2))*200;
+    let totalAmount = generateRandomInt(10,100)
     let retrievalRefNumber = generateRandomString(6)
     return {
         ref: `BANK_${txnTimestamp}_${generateRandomString(5)}_${retrievalRefNumber}`,
