@@ -45,7 +45,7 @@ function dataVerify(mccCode, countryCode, currency, mccCode, pmt, txnTimestamp) 
     const issuer = getRandomElement(bankList);
     let retrievalRefNumber = generateRandomString(6)
     return {
-        ref: `BANK_${txnTimestamp}_${generateRandomString(5)}_${retrievalRefNumber}`,
+        ref: `BANK_${txnTimestamp}_${retrievalRefNumber}`,
         totalAmount:1000,
         currency,
         countryCode,
