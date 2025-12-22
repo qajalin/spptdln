@@ -1,5 +1,5 @@
 async function verifyTrx(countryCode,pmt,destinationType,currency) {
-    let payloadVerify = dataVerify(countryCode, currency, pmt, moment().format('YYYYMMDDHHmmss'), destinationType)
+    let payloadVerify = dataVerify(countryCode, currency, pmt, moment().format('MMDDHHmmss'), destinationType)
     try {
         
     let path = "/v1/transaction/verifyTransaction"

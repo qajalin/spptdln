@@ -34,7 +34,7 @@ function configHeaderRegister(payloadRegister,path){
  function dataRegister (mcc,countryCode,currency,merchantCountryCode, classification, clientTimestamp)  {
 
      return {
-        registeredName: `TEST NON pmse -Tanpa Clasf - ${mcc} - ${countryCode} ${currency} - ${merchantCountryCode} - ${classification} - ${generateRandomString(7)}`,
+        registeredName: `Mer ${mcc}-${classification}-${generateRandomString(3)}`,
         registrationNumber: `REG${clientTimestamp}`,
         countryCode,
         merchantName:`Perusahaan DI ${mcc} - ${generateRandomString(5)}`,

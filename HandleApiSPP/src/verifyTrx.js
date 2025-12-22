@@ -1,6 +1,6 @@
 async function verifyTrx(resRegister,pmt) {
     let payloadRegister = resRegister.payloadRegister
-    let payloadVerify = dataVerify(resRegister.payloadRegister.mccCode, resRegister.payloadRegister.countryCode, resRegister.payloadRegister.currency, resRegister.payloadRegister.mccCode, pmt, moment().format('YYYYMMDDHHmmss'))
+    let payloadVerify = dataVerify(resRegister.payloadRegister.mccCode, resRegister.payloadRegister.countryCode, resRegister.payloadRegister.currency, resRegister.payloadRegister.mccCode, pmt, moment().format('MMDDHHmmss'))
     let responseRegister = null
     try {
         
@@ -44,25 +44,22 @@ function configHeaderVerify(payloadVerify,path,merchantKey){
 function dataVerify(mccCode, countryCode, currency, mccCode, pmt, txnTimestamp) {
     const issuer = getRandomElement(bankList);
     let retrievalRefNumber = generateRandomString(6)
+    const totalAmount = generateRandomInt(10,100)
     return {
-        ref: `BANK_${txnTimestamp}_${retrievalRefNumber}`,
-        totalAmount:1000,
+        ref: `${prefix}_${txnTimestamp}_${retrievalRefNumber}`,
+        totalAmount,
         currency,
         countryCode,
         paymentMethods: {
-            [pmt]: 1000
+            [pmt]: totalAmount
         },
-        //transactionFee: 0,
         mccCode,
         issuingBank: issuer,
         issuerCountryCode: "ID",
-        cardType: getRandomElement(principleList),
-        //entryMode: "CHIP",
-        //posConditionCode: "00",
-        //authCode: `AUTH${txnTimestamp}_1`,
+        cardType: pmt==="WALLET"?"GPN":getRandomElement(principleList),
         retrievalRefNumber,
-        destinationType: 'PAYMENT', //enum
-        transactionTime: moment().add(-1,"second").format('YYYY-MM-DDTHH:mm:ss.SSSZ')
+        destinationType: getRandomElement(['PAYMENT','PURCHASE']), //enum
+        transactionTime: moment().add(generateRandomInt(-2,-1),"days").format('YYYY-MM-DDTHH:mm:ss.SSSZ')
     }
 }
 

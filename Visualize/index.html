@@ -115,29 +115,43 @@
             // 'filterable': (Opsional) Boolean, apakah kolom ini memiliki filter teks
             // 'defaultValue': Nilai yang ditampilkan jika 'key' tidak ditemukan.
             columns: [
-               
                 { key: 'register.request.body.mccCode', label: 'mccCode', filterable: true, defaultValue: '!!!', renderer: (value) => `<span class="italic text-gray-600">${value}</span>` },
-                { key: 'verify.request.body.paymentMethods', label: 'mccCode', filterable: false, defaultValue: '!!!', renderer: (value) => `<span class="italic text-gray-600">${JSON.stringify(value)}</span>` },
-                
+                { key: 'verify.request.body.paymentMethods', label: 'Payment Methods', filterable: true, defaultValue: '!!!', renderer: (value) => `<span class="italic text-gray-600">${JSON.stringify(value)}</span>` },
+                { key: 'register.request.body.mccCode', label: 'mccCode', filterable: true, defaultValue: '!!!', renderer: (value) => `<span class="italic text-gray-600">${value}</span>` },
                 // BARU: Kolom untuk menampilkan seluruh objek JSON baris
                 { 
-                    key: 'register', // Kunci khusus, tidak ada di data mentah
-                    label: 'Register', 
+                    key: 'register.request.body', // Kunci khusus, tidak ada di data mentah
+                    label: 'Register Request', 
                     filterable: false, 
                     defaultValue: '{}', 
                     renderer: (item) => {
                         // Tampilkan seluruh objek 'item' (data mentah baris) dalam format JSON yang rapi
                         const jsonString = JSON.stringify(item, null, 2);
                         return `
-                            <div class="json-cell-wrapper text-xs bg-gray-100 p-2 rounded max-h-40 overflow-y-scroll font-mono text-gray-700 leading-snug shadow-inner">
-                                <pre>${jsonString}</pre>
+                            <div  class="json-cell-wrapper text-xs bg-gray-100 p-2 rounded max-h-40 overflow-y-scroll font-mono text-gray-700 leading-snug shadow-inner">
+                                <pre onclick="copyClipboard(this)">${jsonString}</pre>
                             </div>
                         `;
                     }
                 },
                 { 
-                    key: 'verify', // Kunci khusus, tidak ada di data mentah
-                    label: 'verify', 
+                    key: 'register.response.body', // Kunci khusus, tidak ada di data mentah
+                    label: 'Register Response', 
+                    filterable: false, 
+                    defaultValue: '{}', 
+                    renderer: (item) => {
+                        // Tampilkan seluruh objek 'item' (data mentah baris) dalam format JSON yang rapi
+                        const jsonString = JSON.stringify(item, null, 2);
+                        return `
+                            <div  class="json-cell-wrapper text-xs bg-gray-100 p-2 rounded max-h-40 overflow-y-scroll font-mono text-gray-700 leading-snug shadow-inner">
+                                <pre onclick="copyClipboard(this)">${jsonString}</pre>
+                            </div>
+                        `;
+                    }
+                },
+                { 
+                    key: 'verify.request.body', // Kunci khusus, tidak ada di data mentah
+                    label: 'verify Request', 
                     filterable: false, 
                     defaultValue: '{}', 
                     renderer: (item) => {
@@ -145,14 +159,29 @@
                         const jsonString = JSON.stringify(item, null, 2);
                         return `
                             <div class="json-cell-wrapper text-xs bg-gray-100 p-1 rounded max-h-40 overflow-y-scroll font-mono text-gray-700 leading-snug shadow-inner">
-                                <pre>${jsonString}</pre>
+                                <pre onclick="copyClipboard(this)">${jsonString}</pre>
                             </div>
                         `;
                     }
                 },
                 { 
-                    key: 'decline', // Kunci khusus, tidak ada di data mentah
-                    label: 'decline', 
+                    key: 'verify.response.body', // Kunci khusus, tidak ada di data mentah
+                    label: 'verify Response', 
+                    filterable: false, 
+                    defaultValue: '{}', 
+                    renderer: (item) => {
+                        // Tampilkan seluruh objek 'item' (data mentah baris) dalam format JSON yang rapi
+                        const jsonString = JSON.stringify(item, null, 2);
+                        return `
+                            <div class="json-cell-wrapper text-xs bg-gray-100 p-1 rounded max-h-40 overflow-y-scroll font-mono text-gray-700 leading-snug shadow-inner">
+                                <pre onclick="copyClipboard(this)">${jsonString}</pre>
+                            </div>
+                        `;
+                    }
+                },
+                { 
+                    key: 'decline.request.body', // Kunci khusus, tidak ada di data mentah
+                    label: 'decline request', 
                     filterable: false, 
                     defaultValue: '{}', 
                     renderer: (item) => {
@@ -160,14 +189,29 @@
                         const jsonString = JSON.stringify(item, null, 2);
                         return `
                             <div class="json-cell-wrapper text-xs bg-gray-100 p-2 rounded max-h-40 overflow-y-scroll font-mono text-gray-700 leading-snug shadow-inner">
-                                <pre>${jsonString}</pre>
+                                <pre onclick="copyClipboard(this)">${jsonString}</pre>
                             </div>
                         `;
                     }
                 },
                 { 
-                    key: 'chargeback', // Kunci khusus, tidak ada di data mentah
-                    label: 'chargeback', 
+                    key: 'decline.response', // Kunci khusus, tidak ada di data mentah
+                    label: 'decline response', 
+                    filterable: false, 
+                    defaultValue: '{}', 
+                    renderer: (item) => {
+                        // Tampilkan seluruh objek 'item' (data mentah baris) dalam format JSON yang rapi
+                        const jsonString = JSON.stringify(item, null, 2);
+                        return `
+                            <div class="json-cell-wrapper text-xs bg-gray-100 p-2 rounded max-h-40 overflow-y-scroll font-mono text-gray-700 leading-snug shadow-inner">
+                                <pre onclick="copyClipboard(this)">${jsonString}</pre>
+                            </div>
+                        `;
+                    }
+                },
+                { 
+                    key: 'chargeback.request.body', // Kunci khusus, tidak ada di data mentah
+                    label: 'chargeback request', 
                     filterable: false, 
                     defaultValue: '{}', 
                     renderer: (item) => {
@@ -175,7 +219,22 @@
                         const jsonString = JSON.stringify(item, null, 2);
                         return `
                             <div class="text-xs bg-gray-100 p-2 rounded max-h-40 overflow-y-scroll font-mono text-gray-700 leading-snug shadow-inner">
-                                <pre>${jsonString}</pre>
+                                <pre onclick="copyClipboard(this)">${jsonString}</pre>
+                            </div>
+                        `;
+                    }
+                },
+                { 
+                    key: 'chargeback.response', // Kunci khusus, tidak ada di data mentah
+                    label: 'chargeback response', 
+                    filterable: false, 
+                    defaultValue: '{}', 
+                    renderer: (item) => {
+                        // Tampilkan seluruh objek 'item' (data mentah baris) dalam format JSON yang rapi
+                        const jsonString = JSON.stringify(item, null, 2);
+                        return `
+                            <div class="text-xs bg-gray-100 p-2 rounded max-h-40 overflow-y-scroll font-mono text-gray-700 leading-snug shadow-inner">
+                                <pre onclick="copyClipboard(this)">${jsonString}</pre>
                             </div>
                         `;
                     }
@@ -202,6 +261,12 @@
         const filterStatus = document.getElementById('record-count');
         const noDataMessage = document.getElementById('no-data-message');
         const rawJsonOutput = document.getElementById('raw-json-output');
+
+        async function copyClipboard(element) {
+            await navigator.clipboard.writeText(element.innerHTML)
+          
+            alert("copy to clipboard")  
+        }
 
         // 1. Mengambil data dari API
         async function fetchData() {
@@ -254,6 +319,7 @@
             config.columns.forEach(col => {
                 filterRow += `<th class="px-6 py-2 border-b border-gray-200">`;
                 if (col.filterable) {
+                    console.log(col.label + ' is filterable');
                     filterValues[col.key] = ''; // Inisialisasi nilai filter
                     filterRow += `<input type="text" data-key="${col.key}" placeholder="Filter ${col.label}..." class="filter-input w-full p-1 text-sm border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">`;
                 } else {

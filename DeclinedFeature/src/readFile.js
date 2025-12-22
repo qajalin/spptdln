@@ -9,14 +9,14 @@ async function readFile(process) {
         
         
         console.log("Processing Item:", item);
-        let returnedData;
+        let returnedData = null;
         if(process==='decline') returnedData = await decline(item);
         else if(process==='chargeback') returnedData = await chargeback(item);
         console.log("returnData:",returnedData)
         arr.push({
             register:returnedData.data.register,
             verify:returnedData.data.verify,
-            [process==='decline'?'decline':'chargeback']:{
+            [process]:{
                 request:{
                     body:returnedData.payloadRequest,
                     header:returnedData.error?returnedData.error.config.headers:null
@@ -36,7 +36,7 @@ async function readFile(process) {
         console.log('log:',returnedData)
     }
     console.log("arr",arr)
-    downloadFile(arr,`Hasil_${process==='decline'?'decline':'chargeback'} - ${moment().format('YYYYMMDDHHmmss')}.json`)
+    downloadFile(arr,`Hasil_${process} - ${moment().format('YYYYMMDDHHmmss')}.json`)
 }
 
 

@@ -19,6 +19,46 @@
     }
 }
 
+// const bodyRequestChargeback = data =>{
+//     const {totalAmount, vatAmount,} = data.verify.response.body.content
+//     const {retrievalRefNumber, currency,transactionTime,ref} = data.verify.request.body
+//     const {"X-TIMESTAMP":xtimeStamp} = data.verify.request.header
+//     const timestamp  = moment().unix()
+//     return {
+//         transactionRef:ref,
+//         ref: `CHB_${ref}`,
+//         currency:"IDR",
+//         refundAmount:totalAmount,
+//         refundVatAmount:vatAmount,
+//         reason:"CANCELLATION",
+//         verifiedTransactionAmount:totalAmount,
+//         verifiedRetrievalRefNumber:retrievalRefNumber,
+//         verifiedTransactionTimestamp:transactionTime
+//     }
+// }
+
+
+// const bodyRequestChargeback = data =>{
+//     const {totalAmount, vatAmount,} = data.verify.response.body.content
+//     const {retrievalRefNumber, currency,transactionTime,ref} = data.verify.request.body
+//     const {"X-TIMESTAMP":xtimeStamp} = data.verify.request.header
+//     const timestamp  = moment().format('YYYYMMDDHHmmss')
+//     const totPartial = generateRandomInt(1000,20000)
+//     return {
+//         transactionRef:ref,
+//         ref: `CHB_${ref}`,
+//         currency:"IDR",
+//         refundAmount:parseInt(totalAmount)-totPartial,
+//         refundVatAmount:parseInt(vatAmount)-(totPartial*0.11),
+//         reason:"PARTIAL",
+//         verifiedTransactionAmount:totalAmount,
+//         verifiedRetrievalRefNumber:retrievalRefNumber,
+//         verifiedTransactionTimestamp:transactionTime
+//     }
+// }
+
+
+
 const bodyRequestChargeback = data =>{
     const {totalAmount, vatAmount,} = data.verify.response.body.content
     const {retrievalRefNumber, currency,transactionTime,ref} = data.verify.request.body
@@ -26,11 +66,11 @@ const bodyRequestChargeback = data =>{
     const timestamp  = moment().format('YYYYMMDDHHmmss')
     return {
         transactionRef:ref,
-        ref: `CHB_${ref.slice(0,4)}_${timestamp}_${retrievalRefNumber}`,
+        ref: `CHB_${ref}`,
         currency:"IDR",
-        refundAmount:totalAmount,
+        refundAmount:0,
         refundVatAmount:vatAmount,
-        reason:"CANCELLATION",
+        reason:"TAX_CORRECTION",
         verifiedTransactionAmount:totalAmount,
         verifiedRetrievalRefNumber:retrievalRefNumber,
         verifiedTransactionTimestamp:transactionTime
