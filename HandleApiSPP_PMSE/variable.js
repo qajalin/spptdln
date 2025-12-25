@@ -43,7 +43,7 @@ const prefix="BNST"
 
 //Case Variable
 const paymentMethod = [
-    "WALLET","CREDIT_CARD", "DEBIT_CARD", //,//"CURRENT_ACCOUNT","SAVINGS_ACCOUNT"
+    "WALLET",//"CREDIT_CARD", "DEBIT_CARD", //,//"CURRENT_ACCOUNT","SAVINGS_ACCOUNT"
 ]
 
 const currencyList = [
